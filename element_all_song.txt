@@ -1,0 +1,1416 @@
+<scrollable-data src="$ctrl.artist_song_infinite_scrollable_data" scroll-mechanism="infinite_scroll" repeat-with="song"><!---->
+
+<!----><div ng-if="$scrollable_data_ctrl.models.length" class="">
+  <!----><transclude-injecting-local-scope ng-repeat="scrollable_data_model in $scrollable_data_ctrl.models track by $id(scrollable_data_model)" copy-value-to-scope="{key: $scrollable_data_ctrl.repeat_with, value: scrollable_data_model}" class="u-display_block ">
+    <div class="profile_list_item" ng-class="{'profile_list_item--last': $last}">
+      <mini-song-card object="song" variants="{small: true, show_unreviewed_count: $ctrl.sort_method == 'unreviewed_annotations'}"><a ng-href="https://genius.com/Dpr-ian-no-blueberries-lyrics" class="mini_card mini_card--small" ng-class="{'mini_card--small': $ctrl.variants.small}" href="https://genius.com/Dpr-ian-no-blueberries-lyrics">
+  <div class="mini_card-thumbnail clipped_background_image--background_fill clipped_background_image" clipped-background-image=":: $ctrl.song.song_art_image_thumbnail_url" style="background-image: url(&quot;https://images.genius.com/caf45e4ef6803f69e3622d183d75df04.300x300x1.png&quot;);">
+    <!---->
+  </div>
+  <div class="mini_card-info">
+    <div class="mini_card-title_and_subtitle">
+      <div class="mini_card-title">No Blueberries</div>
+      <div class="mini_card-subtitle">
+        DPR IAN<!---->
+      </div>
+    </div>
+    <!---->
+    <!----><div ng-if="!$ctrl.excerpt_with_markup">
+      <!----><div ng-if="$ctrl.song.lyrics_state === 'complete'" class="mini_card-metadata">
+        <!---->
+        <!---->
+        <!----><span ng-if=":: $ctrl.song.stats.pageviews">
+          <svg src="eye.svg" class="inline_icon inline_icon--up_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 15.45"><path d="M11 2c4 0 7.26 3.85 8.6 5.72-1.34 1.87-4.6 5.73-8.6 5.73S3.74 9.61 2.4 7.73C3.74 5.86 7 2 11 2m0-2C4.45 0 0 7.73 0 7.73s4.45 7.73 11 7.73 11-7.73 11-7.73S17.55 0 11 0z"></path><path d="M11 5a2.73 2.73 0 1 1-2.73 2.73A2.73 2.73 0 0 1 11 5m0-2a4.73 4.73 0 1 0 4.73 4.73A4.73 4.73 0 0 0 11 3z"></path></svg>
+          92.7K
+        </span><!---->
+        <!---->
+      </div><!---->
+      <!---->
+      <!---->
+    </div><!---->
+  </div>
+</a>
+</mini-song-card>
+    </div>
+  </transclude-injecting-local-scope><!----><transclude-injecting-local-scope ng-repeat="scrollable_data_model in $scrollable_data_ctrl.models track by $id(scrollable_data_model)" copy-value-to-scope="{key: $scrollable_data_ctrl.repeat_with, value: scrollable_data_model}" class="u-display_block ">
+    <div class="profile_list_item" ng-class="{'profile_list_item--last': $last}">
+      <mini-song-card object="song" variants="{small: true, show_unreviewed_count: $ctrl.sort_method == 'unreviewed_annotations'}"><a ng-href="https://genius.com/Dpr-ian-nerves-lyrics" class="mini_card mini_card--small" ng-class="{'mini_card--small': $ctrl.variants.small}" href="https://genius.com/Dpr-ian-nerves-lyrics">
+  <div class="mini_card-thumbnail clipped_background_image--background_fill clipped_background_image" clipped-background-image=":: $ctrl.song.song_art_image_thumbnail_url" style="background-image: url(&quot;https://images.genius.com/f43a3591337ac6d15dcecf4e01a7e70d.300x300x1.jpg&quot;);">
+    <!---->
+  </div>
+  <div class="mini_card-info">
+    <div class="mini_card-title_and_subtitle">
+      <div class="mini_card-title">Nerves</div>
+      <div class="mini_card-subtitle">
+        DPR IAN<!---->
+      </div>
+    </div>
+    <!---->
+    <!----><div ng-if="!$ctrl.excerpt_with_markup">
+      <!----><div ng-if="$ctrl.song.lyrics_state === 'complete'" class="mini_card-metadata">
+        <!---->
+        <!---->
+        <!----><span ng-if=":: $ctrl.song.stats.pageviews">
+          <svg src="eye.svg" class="inline_icon inline_icon--up_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 15.45"><path d="M11 2c4 0 7.26 3.85 8.6 5.72-1.34 1.87-4.6 5.73-8.6 5.73S3.74 9.61 2.4 7.73C3.74 5.86 7 2 11 2m0-2C4.45 0 0 7.73 0 7.73s4.45 7.73 11 7.73 11-7.73 11-7.73S17.55 0 11 0z"></path><path d="M11 5a2.73 2.73 0 1 1-2.73 2.73A2.73 2.73 0 0 1 11 5m0-2a4.73 4.73 0 1 0 4.73 4.73A4.73 4.73 0 0 0 11 3z"></path></svg>
+          76.4K
+        </span><!---->
+        <!---->
+      </div><!---->
+      <!---->
+      <!---->
+    </div><!---->
+  </div>
+</a>
+</mini-song-card>
+    </div>
+  </transclude-injecting-local-scope><!----><transclude-injecting-local-scope ng-repeat="scrollable_data_model in $scrollable_data_ctrl.models track by $id(scrollable_data_model)" copy-value-to-scope="{key: $scrollable_data_ctrl.repeat_with, value: scrollable_data_model}" class="u-display_block ">
+    <div class="profile_list_item" ng-class="{'profile_list_item--last': $last}">
+      <mini-song-card object="song" variants="{small: true, show_unreviewed_count: $ctrl.sort_method == 'unreviewed_annotations'}"><a ng-href="https://genius.com/Dpr-ian-so-beautiful-lyrics" class="mini_card mini_card--small" ng-class="{'mini_card--small': $ctrl.variants.small}" href="https://genius.com/Dpr-ian-so-beautiful-lyrics">
+  <div class="mini_card-thumbnail clipped_background_image--background_fill clipped_background_image" clipped-background-image=":: $ctrl.song.song_art_image_thumbnail_url" style="background-image: url(&quot;https://images.genius.com/471c3d2be63bf4003b1e85c99991cd84.300x300x1.png&quot;);">
+    <!---->
+  </div>
+  <div class="mini_card-info">
+    <div class="mini_card-title_and_subtitle">
+      <div class="mini_card-title">So Beautiful</div>
+      <div class="mini_card-subtitle">
+        DPR IAN<!---->
+      </div>
+    </div>
+    <!---->
+    <!----><div ng-if="!$ctrl.excerpt_with_markup">
+      <!----><div ng-if="$ctrl.song.lyrics_state === 'complete'" class="mini_card-metadata">
+        <!---->
+        <!---->
+        <!----><span ng-if=":: $ctrl.song.stats.pageviews">
+          <svg src="eye.svg" class="inline_icon inline_icon--up_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 15.45"><path d="M11 2c4 0 7.26 3.85 8.6 5.72-1.34 1.87-4.6 5.73-8.6 5.73S3.74 9.61 2.4 7.73C3.74 5.86 7 2 11 2m0-2C4.45 0 0 7.73 0 7.73s4.45 7.73 11 7.73 11-7.73 11-7.73S17.55 0 11 0z"></path><path d="M11 5a2.73 2.73 0 1 1-2.73 2.73A2.73 2.73 0 0 1 11 5m0-2a4.73 4.73 0 1 0 4.73 4.73A4.73 4.73 0 0 0 11 3z"></path></svg>
+          72.2K
+        </span><!---->
+        <!---->
+      </div><!---->
+      <!---->
+      <!---->
+    </div><!---->
+  </div>
+</a>
+</mini-song-card>
+    </div>
+  </transclude-injecting-local-scope><!----><transclude-injecting-local-scope ng-repeat="scrollable_data_model in $scrollable_data_ctrl.models track by $id(scrollable_data_model)" copy-value-to-scope="{key: $scrollable_data_ctrl.repeat_with, value: scrollable_data_model}" class="u-display_block ">
+    <div class="profile_list_item" ng-class="{'profile_list_item--last': $last}">
+      <mini-song-card object="song" variants="{small: true, show_unreviewed_count: $ctrl.sort_method == 'unreviewed_annotations'}"><a ng-href="https://genius.com/Dpr-live-kiss-me-lyrics" class="mini_card mini_card--small" ng-class="{'mini_card--small': $ctrl.variants.small}" href="https://genius.com/Dpr-live-kiss-me-lyrics">
+  <div class="mini_card-thumbnail clipped_background_image--background_fill clipped_background_image" clipped-background-image=":: $ctrl.song.song_art_image_thumbnail_url" style="background-image: url(&quot;https://t2.genius.com/unsafe/38x38/https%3A%2F%2Fimages.genius.com%2F04e3bc9c74f3e77515954153006cb801.300x300x1.jpg&quot;);">
+    <!---->
+  </div>
+  <div class="mini_card-info">
+    <div class="mini_card-title_and_subtitle">
+      <div class="mini_card-title">KISS ME</div>
+      <div class="mini_card-subtitle">
+        DPR LIVE<!---->
+      </div>
+    </div>
+    <!---->
+    <!----><div ng-if="!$ctrl.excerpt_with_markup">
+      <!----><div ng-if="$ctrl.song.lyrics_state === 'complete'" class="mini_card-metadata">
+        <!---->
+        <!---->
+        <!----><span ng-if=":: $ctrl.song.stats.pageviews">
+          <svg src="eye.svg" class="inline_icon inline_icon--up_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 15.45"><path d="M11 2c4 0 7.26 3.85 8.6 5.72-1.34 1.87-4.6 5.73-8.6 5.73S3.74 9.61 2.4 7.73C3.74 5.86 7 2 11 2m0-2C4.45 0 0 7.73 0 7.73s4.45 7.73 11 7.73 11-7.73 11-7.73S17.55 0 11 0z"></path><path d="M11 5a2.73 2.73 0 1 1-2.73 2.73A2.73 2.73 0 0 1 11 5m0-2a4.73 4.73 0 1 0 4.73 4.73A4.73 4.73 0 0 0 11 3z"></path></svg>
+          46.5K
+        </span><!---->
+        <!---->
+      </div><!---->
+      <!---->
+      <!---->
+    </div><!---->
+  </div>
+</a>
+</mini-song-card>
+    </div>
+  </transclude-injecting-local-scope><!----><transclude-injecting-local-scope ng-repeat="scrollable_data_model in $scrollable_data_ctrl.models track by $id(scrollable_data_model)" copy-value-to-scope="{key: $scrollable_data_ctrl.repeat_with, value: scrollable_data_model}" class="u-display_block ">
+    <div class="profile_list_item" ng-class="{'profile_list_item--last': $last}">
+      <mini-song-card object="song" variants="{small: true, show_unreviewed_count: $ctrl.sort_method == 'unreviewed_annotations'}"><a ng-href="https://genius.com/Dpr-ian-scaredy-cat-lyrics" class="mini_card mini_card--small" ng-class="{'mini_card--small': $ctrl.variants.small}" href="https://genius.com/Dpr-ian-scaredy-cat-lyrics">
+  <div class="mini_card-thumbnail clipped_background_image--background_fill clipped_background_image" clipped-background-image=":: $ctrl.song.song_art_image_thumbnail_url" style="background-image: url(&quot;https://images.genius.com/f43a3591337ac6d15dcecf4e01a7e70d.300x300x1.jpg&quot;);">
+    <!---->
+  </div>
+  <div class="mini_card-info">
+    <div class="mini_card-title_and_subtitle">
+      <div class="mini_card-title">Scaredy Cat</div>
+      <div class="mini_card-subtitle">
+        DPR IAN<!---->
+      </div>
+    </div>
+    <!---->
+    <!----><div ng-if="!$ctrl.excerpt_with_markup">
+      <!----><div ng-if="$ctrl.song.lyrics_state === 'complete'" class="mini_card-metadata">
+        <!---->
+        <!---->
+        <!----><span ng-if=":: $ctrl.song.stats.pageviews">
+          <svg src="eye.svg" class="inline_icon inline_icon--up_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 15.45"><path d="M11 2c4 0 7.26 3.85 8.6 5.72-1.34 1.87-4.6 5.73-8.6 5.73S3.74 9.61 2.4 7.73C3.74 5.86 7 2 11 2m0-2C4.45 0 0 7.73 0 7.73s4.45 7.73 11 7.73 11-7.73 11-7.73S17.55 0 11 0z"></path><path d="M11 5a2.73 2.73 0 1 1-2.73 2.73A2.73 2.73 0 0 1 11 5m0-2a4.73 4.73 0 1 0 4.73 4.73A4.73 4.73 0 0 0 11 3z"></path></svg>
+          44.5K
+        </span><!---->
+        <!---->
+      </div><!---->
+      <!---->
+      <!---->
+    </div><!---->
+  </div>
+</a>
+</mini-song-card>
+    </div>
+  </transclude-injecting-local-scope><!----><transclude-injecting-local-scope ng-repeat="scrollable_data_model in $scrollable_data_ctrl.models track by $id(scrollable_data_model)" copy-value-to-scope="{key: $scrollable_data_ctrl.repeat_with, value: scrollable_data_model}" class="u-display_block ">
+    <div class="profile_list_item" ng-class="{'profile_list_item--last': $last}">
+      <mini-song-card object="song" variants="{small: true, show_unreviewed_count: $ctrl.sort_method == 'unreviewed_annotations'}"><a ng-href="https://genius.com/Dpr-ian-dope-lovers-lyrics" class="mini_card mini_card--small" ng-class="{'mini_card--small': $ctrl.variants.small}" href="https://genius.com/Dpr-ian-dope-lovers-lyrics">
+  <div class="mini_card-thumbnail clipped_background_image--background_fill clipped_background_image" clipped-background-image=":: $ctrl.song.song_art_image_thumbnail_url" style="background-image: url(&quot;https://images.genius.com/f43a3591337ac6d15dcecf4e01a7e70d.300x300x1.jpg&quot;);">
+    <!---->
+  </div>
+  <div class="mini_card-info">
+    <div class="mini_card-title_and_subtitle">
+      <div class="mini_card-title">Dope Lovers</div>
+      <div class="mini_card-subtitle">
+        DPR IAN<!---->
+      </div>
+    </div>
+    <!---->
+    <!----><div ng-if="!$ctrl.excerpt_with_markup">
+      <!----><div ng-if="$ctrl.song.lyrics_state === 'complete'" class="mini_card-metadata">
+        <!---->
+        <!---->
+        <!----><span ng-if=":: $ctrl.song.stats.pageviews">
+          <svg src="eye.svg" class="inline_icon inline_icon--up_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 15.45"><path d="M11 2c4 0 7.26 3.85 8.6 5.72-1.34 1.87-4.6 5.73-8.6 5.73S3.74 9.61 2.4 7.73C3.74 5.86 7 2 11 2m0-2C4.45 0 0 7.73 0 7.73s4.45 7.73 11 7.73 11-7.73 11-7.73S17.55 0 11 0z"></path><path d="M11 5a2.73 2.73 0 1 1-2.73 2.73A2.73 2.73 0 0 1 11 5m0-2a4.73 4.73 0 1 0 4.73 4.73A4.73 4.73 0 0 0 11 3z"></path></svg>
+          36.5K
+        </span><!---->
+        <!---->
+      </div><!---->
+      <!---->
+      <!---->
+    </div><!---->
+  </div>
+</a>
+</mini-song-card>
+    </div>
+  </transclude-injecting-local-scope><!----><transclude-injecting-local-scope ng-repeat="scrollable_data_model in $scrollable_data_ctrl.models track by $id(scrollable_data_model)" copy-value-to-scope="{key: $scrollable_data_ctrl.repeat_with, value: scrollable_data_model}" class="u-display_block ">
+    <div class="profile_list_item" ng-class="{'profile_list_item--last': $last}">
+      <mini-song-card object="song" variants="{small: true, show_unreviewed_count: $ctrl.sort_method == 'unreviewed_annotations'}"><a ng-href="https://genius.com/Dpr-ian-ballroom-extravaganza-lyrics" class="mini_card mini_card--small" ng-class="{'mini_card--small': $ctrl.variants.small}" href="https://genius.com/Dpr-ian-ballroom-extravaganza-lyrics">
+  <div class="mini_card-thumbnail clipped_background_image--background_fill clipped_background_image" clipped-background-image=":: $ctrl.song.song_art_image_thumbnail_url" style="background-image: url(&quot;https://images.genius.com/327a73bc214cb68eadf7bb538a107076.300x300x1.jpg&quot;);">
+    <!---->
+  </div>
+  <div class="mini_card-info">
+    <div class="mini_card-title_and_subtitle">
+      <div class="mini_card-title">Ballroom Extravaganza</div>
+      <div class="mini_card-subtitle">
+        DPR IAN<!---->
+      </div>
+    </div>
+    <!---->
+    <!----><div ng-if="!$ctrl.excerpt_with_markup">
+      <!----><div ng-if="$ctrl.song.lyrics_state === 'complete'" class="mini_card-metadata">
+        <!---->
+        <!---->
+        <!----><span ng-if=":: $ctrl.song.stats.pageviews">
+          <svg src="eye.svg" class="inline_icon inline_icon--up_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 15.45"><path d="M11 2c4 0 7.26 3.85 8.6 5.72-1.34 1.87-4.6 5.73-8.6 5.73S3.74 9.61 2.4 7.73C3.74 5.86 7 2 11 2m0-2C4.45 0 0 7.73 0 7.73s4.45 7.73 11 7.73 11-7.73 11-7.73S17.55 0 11 0z"></path><path d="M11 5a2.73 2.73 0 1 1-2.73 2.73A2.73 2.73 0 0 1 11 5m0-2a4.73 4.73 0 1 0 4.73 4.73A4.73 4.73 0 0 0 11 3z"></path></svg>
+          28.7K
+        </span><!---->
+        <!---->
+      </div><!---->
+      <!---->
+      <!---->
+    </div><!---->
+  </div>
+</a>
+</mini-song-card>
+    </div>
+  </transclude-injecting-local-scope><!----><transclude-injecting-local-scope ng-repeat="scrollable_data_model in $scrollable_data_ctrl.models track by $id(scrollable_data_model)" copy-value-to-scope="{key: $scrollable_data_ctrl.repeat_with, value: scrollable_data_model}" class="u-display_block ">
+    <div class="profile_list_item" ng-class="{'profile_list_item--last': $last}">
+      <mini-song-card object="song" variants="{small: true, show_unreviewed_count: $ctrl.sort_method == 'unreviewed_annotations'}"><a ng-href="https://genius.com/Dpr-ian-welcome-to-the-show-lyrics" class="mini_card mini_card--small" ng-class="{'mini_card--small': $ctrl.variants.small}" href="https://genius.com/Dpr-ian-welcome-to-the-show-lyrics">
+  <div class="mini_card-thumbnail clipped_background_image--background_fill clipped_background_image" clipped-background-image=":: $ctrl.song.song_art_image_thumbnail_url" style="background-image: url(&quot;https://images.genius.com/f43a3591337ac6d15dcecf4e01a7e70d.300x300x1.jpg&quot;);">
+    <!---->
+  </div>
+  <div class="mini_card-info">
+    <div class="mini_card-title_and_subtitle">
+      <div class="mini_card-title">Welcome To The Show</div>
+      <div class="mini_card-subtitle">
+        DPR IAN<!---->
+      </div>
+    </div>
+    <!---->
+    <!----><div ng-if="!$ctrl.excerpt_with_markup">
+      <!----><div ng-if="$ctrl.song.lyrics_state === 'complete'" class="mini_card-metadata">
+        <!---->
+        <!---->
+        <!----><span ng-if=":: $ctrl.song.stats.pageviews">
+          <svg src="eye.svg" class="inline_icon inline_icon--up_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 15.45"><path d="M11 2c4 0 7.26 3.85 8.6 5.72-1.34 1.87-4.6 5.73-8.6 5.73S3.74 9.61 2.4 7.73C3.74 5.86 7 2 11 2m0-2C4.45 0 0 7.73 0 7.73s4.45 7.73 11 7.73 11-7.73 11-7.73S17.55 0 11 0z"></path><path d="M11 5a2.73 2.73 0 1 1-2.73 2.73A2.73 2.73 0 0 1 11 5m0-2a4.73 4.73 0 1 0 4.73 4.73A4.73 4.73 0 0 0 11 3z"></path></svg>
+          26.7K
+        </span><!---->
+        <!---->
+      </div><!---->
+      <!---->
+      <!---->
+    </div><!---->
+  </div>
+</a>
+</mini-song-card>
+    </div>
+  </transclude-injecting-local-scope><!----><transclude-injecting-local-scope ng-repeat="scrollable_data_model in $scrollable_data_ctrl.models track by $id(scrollable_data_model)" copy-value-to-scope="{key: $scrollable_data_ctrl.repeat_with, value: scrollable_data_model}" class="u-display_block ">
+    <div class="profile_list_item" ng-class="{'profile_list_item--last': $last}">
+      <mini-song-card object="song" variants="{small: true, show_unreviewed_count: $ctrl.sort_method == 'unreviewed_annotations'}"><a ng-href="https://genius.com/Dpr-ian-peanut-butter-and-tears-lyrics" class="mini_card mini_card--small" ng-class="{'mini_card--small': $ctrl.variants.small}" href="https://genius.com/Dpr-ian-peanut-butter-and-tears-lyrics">
+  <div class="mini_card-thumbnail clipped_background_image--background_fill clipped_background_image" clipped-background-image=":: $ctrl.song.song_art_image_thumbnail_url" style="background-image: url(&quot;https://images.genius.com/dd2454e986a22b6f0defdee6f547e3c9.300x300x1.jpg&quot;);">
+    <!---->
+  </div>
+  <div class="mini_card-info">
+    <div class="mini_card-title_and_subtitle">
+      <div class="mini_card-title">Peanut Butter &amp; Tears</div>
+      <div class="mini_card-subtitle">
+        DPR IAN<!---->
+      </div>
+    </div>
+    <!---->
+    <!----><div ng-if="!$ctrl.excerpt_with_markup">
+      <!----><div ng-if="$ctrl.song.lyrics_state === 'complete'" class="mini_card-metadata">
+        <!---->
+        <!---->
+        <!----><span ng-if=":: $ctrl.song.stats.pageviews">
+          <svg src="eye.svg" class="inline_icon inline_icon--up_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 15.45"><path d="M11 2c4 0 7.26 3.85 8.6 5.72-1.34 1.87-4.6 5.73-8.6 5.73S3.74 9.61 2.4 7.73C3.74 5.86 7 2 11 2m0-2C4.45 0 0 7.73 0 7.73s4.45 7.73 11 7.73 11-7.73 11-7.73S17.55 0 11 0z"></path><path d="M11 5a2.73 2.73 0 1 1-2.73 2.73A2.73 2.73 0 0 1 11 5m0-2a4.73 4.73 0 1 0 4.73 4.73A4.73 4.73 0 0 0 11 3z"></path></svg>
+          26.2K
+        </span><!---->
+        <!---->
+      </div><!---->
+      <!---->
+      <!---->
+    </div><!---->
+  </div>
+</a>
+</mini-song-card>
+    </div>
+  </transclude-injecting-local-scope><!----><transclude-injecting-local-scope ng-repeat="scrollable_data_model in $scrollable_data_ctrl.models track by $id(scrollable_data_model)" copy-value-to-scope="{key: $scrollable_data_ctrl.repeat_with, value: scrollable_data_model}" class="u-display_block ">
+    <div class="profile_list_item" ng-class="{'profile_list_item--last': $last}">
+      <mini-song-card object="song" variants="{small: true, show_unreviewed_count: $ctrl.sort_method == 'unreviewed_annotations'}"><a ng-href="https://genius.com/Dpr-ian-mood-lyrics" class="mini_card mini_card--small" ng-class="{'mini_card--small': $ctrl.variants.small}" href="https://genius.com/Dpr-ian-mood-lyrics">
+  <div class="mini_card-thumbnail clipped_background_image--background_fill clipped_background_image" clipped-background-image=":: $ctrl.song.song_art_image_thumbnail_url" style="background-image: url(&quot;https://images.genius.com/fd47398ef1d935e4a3d23d15567c1b10.300x300x1.png&quot;);">
+    <!---->
+  </div>
+  <div class="mini_card-info">
+    <div class="mini_card-title_and_subtitle">
+      <div class="mini_card-title">Mood</div>
+      <div class="mini_card-subtitle">
+        DPR IAN<!---->
+      </div>
+    </div>
+    <!---->
+    <!----><div ng-if="!$ctrl.excerpt_with_markup">
+      <!----><div ng-if="$ctrl.song.lyrics_state === 'complete'" class="mini_card-metadata">
+        <!---->
+        <!---->
+        <!----><span ng-if=":: $ctrl.song.stats.pageviews">
+          <svg src="eye.svg" class="inline_icon inline_icon--up_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 15.45"><path d="M11 2c4 0 7.26 3.85 8.6 5.72-1.34 1.87-4.6 5.73-8.6 5.73S3.74 9.61 2.4 7.73C3.74 5.86 7 2 11 2m0-2C4.45 0 0 7.73 0 7.73s4.45 7.73 11 7.73 11-7.73 11-7.73S17.55 0 11 0z"></path><path d="M11 5a2.73 2.73 0 1 1-2.73 2.73A2.73 2.73 0 0 1 11 5m0-2a4.73 4.73 0 1 0 4.73 4.73A4.73 4.73 0 0 0 11 3z"></path></svg>
+          22.5K
+        </span><!---->
+        <!---->
+      </div><!---->
+      <!---->
+      <!---->
+    </div><!---->
+  </div>
+</a>
+</mini-song-card>
+    </div>
+  </transclude-injecting-local-scope><!----><transclude-injecting-local-scope ng-repeat="scrollable_data_model in $scrollable_data_ctrl.models track by $id(scrollable_data_model)" copy-value-to-scope="{key: $scrollable_data_ctrl.repeat_with, value: scrollable_data_model}" class="u-display_block ">
+    <div class="profile_list_item" ng-class="{'profile_list_item--last': $last}">
+      <mini-song-card object="song" variants="{small: true, show_unreviewed_count: $ctrl.sort_method == 'unreviewed_annotations'}"><a ng-href="https://genius.com/Dpr-live-dpr-ian-and-peace-diamonds-and-pearls-lyrics" class="mini_card mini_card--small" ng-class="{'mini_card--small': $ctrl.variants.small}" href="https://genius.com/Dpr-live-dpr-ian-and-peace-diamonds-and-pearls-lyrics">
+  <div class="mini_card-thumbnail clipped_background_image--background_fill clipped_background_image" clipped-background-image=":: $ctrl.song.song_art_image_thumbnail_url" style="background-image: url(&quot;https://t2.genius.com/unsafe/38x38/https%3A%2F%2Fimages.genius.com%2Fabc63ff513618b4e310063c31e1d43d3.300x300x1.jpg&quot;);">
+    <!---->
+  </div>
+  <div class="mini_card-info">
+    <div class="mini_card-title_and_subtitle">
+      <div class="mini_card-title">Diamonds + And Pearls</div>
+      <div class="mini_card-subtitle">
+        DPR LIVE, DPR IAN &amp; peace.<!---->
+      </div>
+    </div>
+    <!---->
+    <!----><div ng-if="!$ctrl.excerpt_with_markup">
+      <!----><div ng-if="$ctrl.song.lyrics_state === 'complete'" class="mini_card-metadata">
+        <!---->
+        <!---->
+        <!----><span ng-if=":: $ctrl.song.stats.pageviews">
+          <svg src="eye.svg" class="inline_icon inline_icon--up_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 15.45"><path d="M11 2c4 0 7.26 3.85 8.6 5.72-1.34 1.87-4.6 5.73-8.6 5.73S3.74 9.61 2.4 7.73C3.74 5.86 7 2 11 2m0-2C4.45 0 0 7.73 0 7.73s4.45 7.73 11 7.73 11-7.73 11-7.73S17.55 0 11 0z"></path><path d="M11 5a2.73 2.73 0 1 1-2.73 2.73A2.73 2.73 0 0 1 11 5m0-2a4.73 4.73 0 1 0 4.73 4.73A4.73 4.73 0 0 0 11 3z"></path></svg>
+          22.1K
+        </span><!---->
+        <!---->
+      </div><!---->
+      <!---->
+      <!---->
+    </div><!---->
+  </div>
+</a>
+</mini-song-card>
+    </div>
+  </transclude-injecting-local-scope><!----><transclude-injecting-local-scope ng-repeat="scrollable_data_model in $scrollable_data_ctrl.models track by $id(scrollable_data_model)" copy-value-to-scope="{key: $scrollable_data_ctrl.repeat_with, value: scrollable_data_model}" class="u-display_block ">
+    <div class="profile_list_item" ng-class="{'profile_list_item--last': $last}">
+      <mini-song-card object="song" variants="{small: true, show_unreviewed_count: $ctrl.sort_method == 'unreviewed_annotations'}"><a ng-href="https://genius.com/Dpr-live-boom-lyrics" class="mini_card mini_card--small" ng-class="{'mini_card--small': $ctrl.variants.small}" href="https://genius.com/Dpr-live-boom-lyrics">
+  <div class="mini_card-thumbnail clipped_background_image--background_fill clipped_background_image" clipped-background-image=":: $ctrl.song.song_art_image_thumbnail_url" style="background-image: url(&quot;https://images.genius.com/d60155e94b34a1fd052f1465a59c01d0.300x300x1.png&quot;);">
+    <!---->
+  </div>
+  <div class="mini_card-info">
+    <div class="mini_card-title_and_subtitle">
+      <div class="mini_card-title">Boom</div>
+      <div class="mini_card-subtitle">
+        DPR LIVE<!---->
+      </div>
+    </div>
+    <!---->
+    <!----><div ng-if="!$ctrl.excerpt_with_markup">
+      <!----><div ng-if="$ctrl.song.lyrics_state === 'complete'" class="mini_card-metadata">
+        <!---->
+        <!---->
+        <!----><span ng-if=":: $ctrl.song.stats.pageviews">
+          <svg src="eye.svg" class="inline_icon inline_icon--up_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 15.45"><path d="M11 2c4 0 7.26 3.85 8.6 5.72-1.34 1.87-4.6 5.73-8.6 5.73S3.74 9.61 2.4 7.73C3.74 5.86 7 2 11 2m0-2C4.45 0 0 7.73 0 7.73s4.45 7.73 11 7.73 11-7.73 11-7.73S17.55 0 11 0z"></path><path d="M11 5a2.73 2.73 0 1 1-2.73 2.73A2.73 2.73 0 0 1 11 5m0-2a4.73 4.73 0 1 0 4.73 4.73A4.73 4.73 0 0 0 11 3z"></path></svg>
+          18.8K
+        </span><!---->
+        <!---->
+      </div><!---->
+      <!---->
+      <!---->
+    </div><!---->
+  </div>
+</a>
+</mini-song-card>
+    </div>
+  </transclude-injecting-local-scope><!----><transclude-injecting-local-scope ng-repeat="scrollable_data_model in $scrollable_data_ctrl.models track by $id(scrollable_data_model)" copy-value-to-scope="{key: $scrollable_data_ctrl.repeat_with, value: scrollable_data_model}" class="u-display_block ">
+    <div class="profile_list_item" ng-class="{'profile_list_item--last': $last}">
+      <mini-song-card object="song" variants="{small: true, show_unreviewed_count: $ctrl.sort_method == 'unreviewed_annotations'}"><a ng-href="https://genius.com/Dpr-ian-calico-lyrics" class="mini_card mini_card--small" ng-class="{'mini_card--small': $ctrl.variants.small}" href="https://genius.com/Dpr-ian-calico-lyrics">
+  <div class="mini_card-thumbnail clipped_background_image--background_fill clipped_background_image" clipped-background-image=":: $ctrl.song.song_art_image_thumbnail_url" style="background-image: url(&quot;https://images.genius.com/fd47398ef1d935e4a3d23d15567c1b10.300x300x1.png&quot;);">
+    <!---->
+  </div>
+  <div class="mini_card-info">
+    <div class="mini_card-title_and_subtitle">
+      <div class="mini_card-title">Calico</div>
+      <div class="mini_card-subtitle">
+        DPR IAN<!---->
+      </div>
+    </div>
+    <!---->
+    <!----><div ng-if="!$ctrl.excerpt_with_markup">
+      <!----><div ng-if="$ctrl.song.lyrics_state === 'complete'" class="mini_card-metadata">
+        <!---->
+        <!---->
+        <!----><span ng-if=":: $ctrl.song.stats.pageviews">
+          <svg src="eye.svg" class="inline_icon inline_icon--up_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 15.45"><path d="M11 2c4 0 7.26 3.85 8.6 5.72-1.34 1.87-4.6 5.73-8.6 5.73S3.74 9.61 2.4 7.73C3.74 5.86 7 2 11 2m0-2C4.45 0 0 7.73 0 7.73s4.45 7.73 11 7.73 11-7.73 11-7.73S17.55 0 11 0z"></path><path d="M11 5a2.73 2.73 0 1 1-2.73 2.73A2.73 2.73 0 0 1 11 5m0-2a4.73 4.73 0 1 0 4.73 4.73A4.73 4.73 0 0 0 11 3z"></path></svg>
+          17K
+        </span><!---->
+        <!---->
+      </div><!---->
+      <!---->
+      <!---->
+    </div><!---->
+  </div>
+</a>
+</mini-song-card>
+    </div>
+  </transclude-injecting-local-scope><!----><transclude-injecting-local-scope ng-repeat="scrollable_data_model in $scrollable_data_ctrl.models track by $id(scrollable_data_model)" copy-value-to-scope="{key: $scrollable_data_ctrl.repeat_with, value: scrollable_data_model}" class="u-display_block ">
+    <div class="profile_list_item" ng-class="{'profile_list_item--last': $last}">
+      <mini-song-card object="song" variants="{small: true, show_unreviewed_count: $ctrl.sort_method == 'unreviewed_annotations'}"><a ng-href="https://genius.com/Dpr-ian-miss-understood-lyrics" class="mini_card mini_card--small" ng-class="{'mini_card--small': $ctrl.variants.small}" href="https://genius.com/Dpr-ian-miss-understood-lyrics">
+  <div class="mini_card-thumbnail clipped_background_image--background_fill clipped_background_image" clipped-background-image=":: $ctrl.song.song_art_image_thumbnail_url" style="background-image: url(&quot;https://images.genius.com/fd47398ef1d935e4a3d23d15567c1b10.300x300x1.png&quot;);">
+    <!---->
+  </div>
+  <div class="mini_card-info">
+    <div class="mini_card-title_and_subtitle">
+      <div class="mini_card-title">Miss Understood</div>
+      <div class="mini_card-subtitle">
+        DPR IAN<!---->
+      </div>
+    </div>
+    <!---->
+    <!----><div ng-if="!$ctrl.excerpt_with_markup">
+      <!----><div ng-if="$ctrl.song.lyrics_state === 'complete'" class="mini_card-metadata">
+        <!---->
+        <!---->
+        <!----><span ng-if=":: $ctrl.song.stats.pageviews">
+          <svg src="eye.svg" class="inline_icon inline_icon--up_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 15.45"><path d="M11 2c4 0 7.26 3.85 8.6 5.72-1.34 1.87-4.6 5.73-8.6 5.73S3.74 9.61 2.4 7.73C3.74 5.86 7 2 11 2m0-2C4.45 0 0 7.73 0 7.73s4.45 7.73 11 7.73 11-7.73 11-7.73S17.55 0 11 0z"></path><path d="M11 5a2.73 2.73 0 1 1-2.73 2.73A2.73 2.73 0 0 1 11 5m0-2a4.73 4.73 0 1 0 4.73 4.73A4.73 4.73 0 0 0 11 3z"></path></svg>
+          15.3K
+        </span><!---->
+        <!---->
+      </div><!---->
+      <!---->
+      <!---->
+    </div><!---->
+  </div>
+</a>
+</mini-song-card>
+    </div>
+  </transclude-injecting-local-scope><!----><transclude-injecting-local-scope ng-repeat="scrollable_data_model in $scrollable_data_ctrl.models track by $id(scrollable_data_model)" copy-value-to-scope="{key: $scrollable_data_ctrl.repeat_with, value: scrollable_data_model}" class="u-display_block ">
+    <div class="profile_list_item" ng-class="{'profile_list_item--last': $last}">
+      <mini-song-card object="song" variants="{small: true, show_unreviewed_count: $ctrl.sort_method == 'unreviewed_annotations'}"><a ng-href="https://genius.com/Dpr-ian-merry-go-lyrics" class="mini_card mini_card--small" ng-class="{'mini_card--small': $ctrl.variants.small}" href="https://genius.com/Dpr-ian-merry-go-lyrics">
+  <div class="mini_card-thumbnail clipped_background_image--background_fill clipped_background_image" clipped-background-image=":: $ctrl.song.song_art_image_thumbnail_url" style="background-image: url(&quot;https://images.genius.com/fd47398ef1d935e4a3d23d15567c1b10.300x300x1.png&quot;);">
+    <!---->
+  </div>
+  <div class="mini_card-info">
+    <div class="mini_card-title_and_subtitle">
+      <div class="mini_card-title">Merry Go</div>
+      <div class="mini_card-subtitle">
+        DPR IAN<!---->
+      </div>
+    </div>
+    <!---->
+    <!----><div ng-if="!$ctrl.excerpt_with_markup">
+      <!----><div ng-if="$ctrl.song.lyrics_state === 'complete'" class="mini_card-metadata">
+        <!---->
+        <!---->
+        <!----><span ng-if=":: $ctrl.song.stats.pageviews">
+          <svg src="eye.svg" class="inline_icon inline_icon--up_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 15.45"><path d="M11 2c4 0 7.26 3.85 8.6 5.72-1.34 1.87-4.6 5.73-8.6 5.73S3.74 9.61 2.4 7.73C3.74 5.86 7 2 11 2m0-2C4.45 0 0 7.73 0 7.73s4.45 7.73 11 7.73 11-7.73 11-7.73S17.55 0 11 0z"></path><path d="M11 5a2.73 2.73 0 1 1-2.73 2.73A2.73 2.73 0 0 1 11 5m0-2a4.73 4.73 0 1 0 4.73 4.73A4.73 4.73 0 0 0 11 3z"></path></svg>
+          13.3K
+        </span><!---->
+        <!---->
+      </div><!---->
+      <!---->
+      <!---->
+    </div><!---->
+  </div>
+</a>
+</mini-song-card>
+    </div>
+  </transclude-injecting-local-scope><!----><transclude-injecting-local-scope ng-repeat="scrollable_data_model in $scrollable_data_ctrl.models track by $id(scrollable_data_model)" copy-value-to-scope="{key: $scrollable_data_ctrl.repeat_with, value: scrollable_data_model}" class="u-display_block ">
+    <div class="profile_list_item" ng-class="{'profile_list_item--last': $last}">
+      <mini-song-card object="song" variants="{small: true, show_unreviewed_count: $ctrl.sort_method == 'unreviewed_annotations'}"><a ng-href="https://genius.com/Dpr-ian-1-shot-lyrics" class="mini_card mini_card--small" ng-class="{'mini_card--small': $ctrl.variants.small}" href="https://genius.com/Dpr-ian-1-shot-lyrics">
+  <div class="mini_card-thumbnail clipped_background_image--background_fill clipped_background_image" clipped-background-image=":: $ctrl.song.song_art_image_thumbnail_url" style="background-image: url(&quot;https://images.genius.com/fd47398ef1d935e4a3d23d15567c1b10.300x300x1.png&quot;);">
+    <!---->
+  </div>
+  <div class="mini_card-info">
+    <div class="mini_card-title_and_subtitle">
+      <div class="mini_card-title">1 Shot</div>
+      <div class="mini_card-subtitle">
+        DPR IAN<!---->
+      </div>
+    </div>
+    <!---->
+    <!----><div ng-if="!$ctrl.excerpt_with_markup">
+      <!----><div ng-if="$ctrl.song.lyrics_state === 'complete'" class="mini_card-metadata">
+        <!---->
+        <!---->
+        <!----><span ng-if=":: $ctrl.song.stats.pageviews">
+          <svg src="eye.svg" class="inline_icon inline_icon--up_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 15.45"><path d="M11 2c4 0 7.26 3.85 8.6 5.72-1.34 1.87-4.6 5.73-8.6 5.73S3.74 9.61 2.4 7.73C3.74 5.86 7 2 11 2m0-2C4.45 0 0 7.73 0 7.73s4.45 7.73 11 7.73 11-7.73 11-7.73S17.55 0 11 0z"></path><path d="M11 5a2.73 2.73 0 1 1-2.73 2.73A2.73 2.73 0 0 1 11 5m0-2a4.73 4.73 0 1 0 4.73 4.73A4.73 4.73 0 0 0 11 3z"></path></svg>
+          13.3K
+        </span><!---->
+        <!---->
+      </div><!---->
+      <!---->
+      <!---->
+    </div><!---->
+  </div>
+</a>
+</mini-song-card>
+    </div>
+  </transclude-injecting-local-scope><!----><transclude-injecting-local-scope ng-repeat="scrollable_data_model in $scrollable_data_ctrl.models track by $id(scrollable_data_model)" copy-value-to-scope="{key: $scrollable_data_ctrl.repeat_with, value: scrollable_data_model}" class="u-display_block ">
+    <div class="profile_list_item" ng-class="{'profile_list_item--last': $last}">
+      <mini-song-card object="song" variants="{small: true, show_unreviewed_count: $ctrl.sort_method == 'unreviewed_annotations'}"><a ng-href="https://genius.com/Dpr-ian-mr-insanity-lyrics" class="mini_card mini_card--small" ng-class="{'mini_card--small': $ctrl.variants.small}" href="https://genius.com/Dpr-ian-mr-insanity-lyrics">
+  <div class="mini_card-thumbnail clipped_background_image--background_fill clipped_background_image" clipped-background-image=":: $ctrl.song.song_art_image_thumbnail_url" style="background-image: url(&quot;https://images.genius.com/fd47398ef1d935e4a3d23d15567c1b10.300x300x1.png&quot;);">
+    <!---->
+  </div>
+  <div class="mini_card-info">
+    <div class="mini_card-title_and_subtitle">
+      <div class="mini_card-title">Mr. Insanity</div>
+      <div class="mini_card-subtitle">
+        DPR IAN<!---->
+      </div>
+    </div>
+    <!---->
+    <!----><div ng-if="!$ctrl.excerpt_with_markup">
+      <!----><div ng-if="$ctrl.song.lyrics_state === 'complete'" class="mini_card-metadata">
+        <!---->
+        <!---->
+        <!----><span ng-if=":: $ctrl.song.stats.pageviews">
+          <svg src="eye.svg" class="inline_icon inline_icon--up_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 15.45"><path d="M11 2c4 0 7.26 3.85 8.6 5.72-1.34 1.87-4.6 5.73-8.6 5.73S3.74 9.61 2.4 7.73C3.74 5.86 7 2 11 2m0-2C4.45 0 0 7.73 0 7.73s4.45 7.73 11 7.73 11-7.73 11-7.73S17.55 0 11 0z"></path><path d="M11 5a2.73 2.73 0 1 1-2.73 2.73A2.73 2.73 0 0 1 11 5m0-2a4.73 4.73 0 1 0 4.73 4.73A4.73 4.73 0 0 0 11 3z"></path></svg>
+          12.3K
+        </span><!---->
+        <!---->
+      </div><!---->
+      <!---->
+      <!---->
+    </div><!---->
+  </div>
+</a>
+</mini-song-card>
+    </div>
+  </transclude-injecting-local-scope><!----><transclude-injecting-local-scope ng-repeat="scrollable_data_model in $scrollable_data_ctrl.models track by $id(scrollable_data_model)" copy-value-to-scope="{key: $scrollable_data_ctrl.repeat_with, value: scrollable_data_model}" class="u-display_block ">
+    <div class="profile_list_item" ng-class="{'profile_list_item--last': $last}">
+      <mini-song-card object="song" variants="{small: true, show_unreviewed_count: $ctrl.sort_method == 'unreviewed_annotations'}"><a ng-href="https://genius.com/Dpr-ian-no-silhouette-lyrics" class="mini_card mini_card--small" ng-class="{'mini_card--small': $ctrl.variants.small}" href="https://genius.com/Dpr-ian-no-silhouette-lyrics">
+  <div class="mini_card-thumbnail clipped_background_image--background_fill clipped_background_image" clipped-background-image=":: $ctrl.song.song_art_image_thumbnail_url" style="background-image: url(&quot;https://images.genius.com/f43a3591337ac6d15dcecf4e01a7e70d.300x300x1.jpg&quot;);">
+    <!---->
+  </div>
+  <div class="mini_card-info">
+    <div class="mini_card-title_and_subtitle">
+      <div class="mini_card-title">No Silhouette</div>
+      <div class="mini_card-subtitle">
+        DPR IAN<!---->
+      </div>
+    </div>
+    <!---->
+    <!----><div ng-if="!$ctrl.excerpt_with_markup">
+      <!----><div ng-if="$ctrl.song.lyrics_state === 'complete'" class="mini_card-metadata">
+        <!---->
+        <!---->
+        <!----><span ng-if=":: $ctrl.song.stats.pageviews">
+          <svg src="eye.svg" class="inline_icon inline_icon--up_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 15.45"><path d="M11 2c4 0 7.26 3.85 8.6 5.72-1.34 1.87-4.6 5.73-8.6 5.73S3.74 9.61 2.4 7.73C3.74 5.86 7 2 11 2m0-2C4.45 0 0 7.73 0 7.73s4.45 7.73 11 7.73 11-7.73 11-7.73S17.55 0 11 0z"></path><path d="M11 5a2.73 2.73 0 1 1-2.73 2.73A2.73 2.73 0 0 1 11 5m0-2a4.73 4.73 0 1 0 4.73 4.73A4.73 4.73 0 0 0 11 3z"></path></svg>
+          11.6K
+        </span><!---->
+        <!---->
+      </div><!---->
+      <!---->
+      <!---->
+    </div><!---->
+  </div>
+</a>
+</mini-song-card>
+    </div>
+  </transclude-injecting-local-scope><!----><transclude-injecting-local-scope ng-repeat="scrollable_data_model in $scrollable_data_ctrl.models track by $id(scrollable_data_model)" copy-value-to-scope="{key: $scrollable_data_ctrl.repeat_with, value: scrollable_data_model}" class="u-display_block ">
+    <div class="profile_list_item" ng-class="{'profile_list_item--last': $last}">
+      <mini-song-card object="song" variants="{small: true, show_unreviewed_count: $ctrl.sort_method == 'unreviewed_annotations'}"><a ng-href="https://genius.com/Dpr-ian-zombie-pop-lyrics" class="mini_card mini_card--small" ng-class="{'mini_card--small': $ctrl.variants.small}" href="https://genius.com/Dpr-ian-zombie-pop-lyrics">
+  <div class="mini_card-thumbnail clipped_background_image--background_fill clipped_background_image" clipped-background-image=":: $ctrl.song.song_art_image_thumbnail_url" style="background-image: url(&quot;https://t2.genius.com/unsafe/38x38/https%3A%2F%2Fimages.genius.com%2F5feb8667921fa8b5d5b205075f1718ff.300x300x1.jpg&quot;);">
+    <!---->
+  </div>
+  <div class="mini_card-info">
+    <div class="mini_card-title_and_subtitle">
+      <div class="mini_card-title">​zombie pop</div>
+      <div class="mini_card-subtitle">
+        DPR IAN<!---->
+      </div>
+    </div>
+    <!---->
+    <!----><div ng-if="!$ctrl.excerpt_with_markup">
+      <!----><div ng-if="$ctrl.song.lyrics_state === 'complete'" class="mini_card-metadata">
+        <!---->
+        <!---->
+        <!----><span ng-if=":: $ctrl.song.stats.pageviews">
+          <svg src="eye.svg" class="inline_icon inline_icon--up_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 15.45"><path d="M11 2c4 0 7.26 3.85 8.6 5.72-1.34 1.87-4.6 5.73-8.6 5.73S3.74 9.61 2.4 7.73C3.74 5.86 7 2 11 2m0-2C4.45 0 0 7.73 0 7.73s4.45 7.73 11 7.73 11-7.73 11-7.73S17.55 0 11 0z"></path><path d="M11 5a2.73 2.73 0 1 1-2.73 2.73A2.73 2.73 0 0 1 11 5m0-2a4.73 4.73 0 1 0 4.73 4.73A4.73 4.73 0 0 0 11 3z"></path></svg>
+          10.8K
+        </span><!---->
+        <!---->
+      </div><!---->
+      <!---->
+      <!---->
+    </div><!---->
+  </div>
+</a>
+</mini-song-card>
+    </div>
+  </transclude-injecting-local-scope><!----><transclude-injecting-local-scope ng-repeat="scrollable_data_model in $scrollable_data_ctrl.models track by $id(scrollable_data_model)" copy-value-to-scope="{key: $scrollable_data_ctrl.repeat_with, value: scrollable_data_model}" class="u-display_block ">
+    <div class="profile_list_item" ng-class="{'profile_list_item--last': $last}">
+      <mini-song-card object="song" variants="{small: true, show_unreviewed_count: $ctrl.sort_method == 'unreviewed_annotations'}"><a ng-href="https://genius.com/Dpr-ian-ribbon-lyrics" class="mini_card mini_card--small" ng-class="{'mini_card--small': $ctrl.variants.small}" href="https://genius.com/Dpr-ian-ribbon-lyrics">
+  <div class="mini_card-thumbnail clipped_background_image--background_fill clipped_background_image" clipped-background-image=":: $ctrl.song.song_art_image_thumbnail_url" style="background-image: url(&quot;https://images.genius.com/fd47398ef1d935e4a3d23d15567c1b10.300x300x1.png&quot;);">
+    <!---->
+  </div>
+  <div class="mini_card-info">
+    <div class="mini_card-title_and_subtitle">
+      <div class="mini_card-title">Ribbon</div>
+      <div class="mini_card-subtitle">
+        DPR IAN<!---->
+      </div>
+    </div>
+    <!---->
+    <!----><div ng-if="!$ctrl.excerpt_with_markup">
+      <!----><div ng-if="$ctrl.song.lyrics_state === 'complete'" class="mini_card-metadata">
+        <!---->
+        <!---->
+        <!----><span ng-if=":: $ctrl.song.stats.pageviews">
+          <svg src="eye.svg" class="inline_icon inline_icon--up_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 15.45"><path d="M11 2c4 0 7.26 3.85 8.6 5.72-1.34 1.87-4.6 5.73-8.6 5.73S3.74 9.61 2.4 7.73C3.74 5.86 7 2 11 2m0-2C4.45 0 0 7.73 0 7.73s4.45 7.73 11 7.73 11-7.73 11-7.73S17.55 0 11 0z"></path><path d="M11 5a2.73 2.73 0 1 1-2.73 2.73A2.73 2.73 0 0 1 11 5m0-2a4.73 4.73 0 1 0 4.73 4.73A4.73 4.73 0 0 0 11 3z"></path></svg>
+          10.6K
+        </span><!---->
+        <!---->
+      </div><!---->
+      <!---->
+      <!---->
+    </div><!---->
+  </div>
+</a>
+</mini-song-card>
+    </div>
+  </transclude-injecting-local-scope><!----><transclude-injecting-local-scope ng-repeat="scrollable_data_model in $scrollable_data_ctrl.models track by $id(scrollable_data_model)" copy-value-to-scope="{key: $scrollable_data_ctrl.repeat_with, value: scrollable_data_model}" class="u-display_block ">
+    <div class="profile_list_item" ng-class="{'profile_list_item--last': $last}">
+      <mini-song-card object="song" variants="{small: true, show_unreviewed_count: $ctrl.sort_method == 'unreviewed_annotations'}"><a ng-href="https://genius.com/Dpr-ian-winterfall-lyrics" class="mini_card mini_card--small" ng-class="{'mini_card--small': $ctrl.variants.small}" href="https://genius.com/Dpr-ian-winterfall-lyrics">
+  <div class="mini_card-thumbnail clipped_background_image--background_fill clipped_background_image" clipped-background-image=":: $ctrl.song.song_art_image_thumbnail_url" style="background-image: url(&quot;https://images.genius.com/fd47398ef1d935e4a3d23d15567c1b10.300x300x1.png&quot;);">
+    <!---->
+  </div>
+  <div class="mini_card-info">
+    <div class="mini_card-title_and_subtitle">
+      <div class="mini_card-title">Winterfall</div>
+      <div class="mini_card-subtitle">
+        DPR IAN<!---->
+      </div>
+    </div>
+    <!---->
+    <!----><div ng-if="!$ctrl.excerpt_with_markup">
+      <!----><div ng-if="$ctrl.song.lyrics_state === 'complete'" class="mini_card-metadata">
+        <!---->
+        <!---->
+        <!----><span ng-if=":: $ctrl.song.stats.pageviews">
+          <svg src="eye.svg" class="inline_icon inline_icon--up_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 15.45"><path d="M11 2c4 0 7.26 3.85 8.6 5.72-1.34 1.87-4.6 5.73-8.6 5.73S3.74 9.61 2.4 7.73C3.74 5.86 7 2 11 2m0-2C4.45 0 0 7.73 0 7.73s4.45 7.73 11 7.73 11-7.73 11-7.73S17.55 0 11 0z"></path><path d="M11 5a2.73 2.73 0 1 1-2.73 2.73A2.73 2.73 0 0 1 11 5m0-2a4.73 4.73 0 1 0 4.73 4.73A4.73 4.73 0 0 0 11 3z"></path></svg>
+          10.5K
+        </span><!---->
+        <!---->
+      </div><!---->
+      <!---->
+      <!---->
+    </div><!---->
+  </div>
+</a>
+</mini-song-card>
+    </div>
+  </transclude-injecting-local-scope><!----><transclude-injecting-local-scope ng-repeat="scrollable_data_model in $scrollable_data_ctrl.models track by $id(scrollable_data_model)" copy-value-to-scope="{key: $scrollable_data_ctrl.repeat_with, value: scrollable_data_model}" class="u-display_block ">
+    <div class="profile_list_item" ng-class="{'profile_list_item--last': $last}">
+      <mini-song-card object="song" variants="{small: true, show_unreviewed_count: $ctrl.sort_method == 'unreviewed_annotations'}"><a ng-href="https://genius.com/Dpr-live-legacy-lyrics" class="mini_card mini_card--small" ng-class="{'mini_card--small': $ctrl.variants.small}" href="https://genius.com/Dpr-live-legacy-lyrics">
+  <div class="mini_card-thumbnail clipped_background_image--background_fill clipped_background_image" clipped-background-image=":: $ctrl.song.song_art_image_thumbnail_url" style="background-image: url(&quot;https://t2.genius.com/unsafe/38x38/https%3A%2F%2Fimages.genius.com%2F04e3bc9c74f3e77515954153006cb801.300x300x1.jpg&quot;);">
+    <!---->
+  </div>
+  <div class="mini_card-info">
+    <div class="mini_card-title_and_subtitle">
+      <div class="mini_card-title">LEGACY</div>
+      <div class="mini_card-subtitle">
+        DPR LIVE<!---->
+      </div>
+    </div>
+    <!---->
+    <!----><div ng-if="!$ctrl.excerpt_with_markup">
+      <!----><div ng-if="$ctrl.song.lyrics_state === 'complete'" class="mini_card-metadata">
+        <!---->
+        <!---->
+        <!----><span ng-if=":: $ctrl.song.stats.pageviews">
+          <svg src="eye.svg" class="inline_icon inline_icon--up_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 15.45"><path d="M11 2c4 0 7.26 3.85 8.6 5.72-1.34 1.87-4.6 5.73-8.6 5.73S3.74 9.61 2.4 7.73C3.74 5.86 7 2 11 2m0-2C4.45 0 0 7.73 0 7.73s4.45 7.73 11 7.73 11-7.73 11-7.73S17.55 0 11 0z"></path><path d="M11 5a2.73 2.73 0 1 1-2.73 2.73A2.73 2.73 0 0 1 11 5m0-2a4.73 4.73 0 1 0 4.73 4.73A4.73 4.73 0 0 0 11 3z"></path></svg>
+          10.4K
+        </span><!---->
+        <!---->
+      </div><!---->
+      <!---->
+      <!---->
+    </div><!---->
+  </div>
+</a>
+</mini-song-card>
+    </div>
+  </transclude-injecting-local-scope><!----><transclude-injecting-local-scope ng-repeat="scrollable_data_model in $scrollable_data_ctrl.models track by $id(scrollable_data_model)" copy-value-to-scope="{key: $scrollable_data_ctrl.repeat_with, value: scrollable_data_model}" class="u-display_block ">
+    <div class="profile_list_item" ng-class="{'profile_list_item--last': $last}">
+      <mini-song-card object="song" variants="{small: true, show_unreviewed_count: $ctrl.sort_method == 'unreviewed_annotations'}"><a ng-href="https://genius.com/Dpr-ian-mito-lyrics" class="mini_card mini_card--small" ng-class="{'mini_card--small': $ctrl.variants.small}" href="https://genius.com/Dpr-ian-mito-lyrics">
+  <div class="mini_card-thumbnail clipped_background_image--background_fill clipped_background_image" clipped-background-image=":: $ctrl.song.song_art_image_thumbnail_url" style="background-image: url(&quot;https://images.genius.com/f43a3591337ac6d15dcecf4e01a7e70d.300x300x1.jpg&quot;);">
+    <!---->
+  </div>
+  <div class="mini_card-info">
+    <div class="mini_card-title_and_subtitle">
+      <div class="mini_card-title">MITO</div>
+      <div class="mini_card-subtitle">
+        DPR IAN<!---->
+      </div>
+    </div>
+    <!---->
+    <!----><div ng-if="!$ctrl.excerpt_with_markup">
+      <!----><div ng-if="$ctrl.song.lyrics_state === 'complete'" class="mini_card-metadata">
+        <!---->
+        <!---->
+        <!----><span ng-if=":: $ctrl.song.stats.pageviews">
+          <svg src="eye.svg" class="inline_icon inline_icon--up_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 15.45"><path d="M11 2c4 0 7.26 3.85 8.6 5.72-1.34 1.87-4.6 5.73-8.6 5.73S3.74 9.61 2.4 7.73C3.74 5.86 7 2 11 2m0-2C4.45 0 0 7.73 0 7.73s4.45 7.73 11 7.73 11-7.73 11-7.73S17.55 0 11 0z"></path><path d="M11 5a2.73 2.73 0 1 1-2.73 2.73A2.73 2.73 0 0 1 11 5m0-2a4.73 4.73 0 1 0 4.73 4.73A4.73 4.73 0 0 0 11 3z"></path></svg>
+          10K
+        </span><!---->
+        <!---->
+      </div><!---->
+      <!---->
+      <!---->
+    </div><!---->
+  </div>
+</a>
+</mini-song-card>
+    </div>
+  </transclude-injecting-local-scope><!----><transclude-injecting-local-scope ng-repeat="scrollable_data_model in $scrollable_data_ctrl.models track by $id(scrollable_data_model)" copy-value-to-scope="{key: $scrollable_data_ctrl.repeat_with, value: scrollable_data_model}" class="u-display_block ">
+    <div class="profile_list_item" ng-class="{'profile_list_item--last': $last}">
+      <mini-song-card object="song" variants="{small: true, show_unreviewed_count: $ctrl.sort_method == 'unreviewed_annotations'}"><a ng-href="https://genius.com/Dpr-ian-avalon-lyrics" class="mini_card mini_card--small" ng-class="{'mini_card--small': $ctrl.variants.small}" href="https://genius.com/Dpr-ian-avalon-lyrics">
+  <div class="mini_card-thumbnail clipped_background_image--background_fill clipped_background_image" clipped-background-image=":: $ctrl.song.song_art_image_thumbnail_url" style="background-image: url(&quot;https://images.genius.com/fd47398ef1d935e4a3d23d15567c1b10.300x300x1.png&quot;);">
+    <!---->
+  </div>
+  <div class="mini_card-info">
+    <div class="mini_card-title_and_subtitle">
+      <div class="mini_card-title">Avalon</div>
+      <div class="mini_card-subtitle">
+        DPR IAN<!---->
+      </div>
+    </div>
+    <!---->
+    <!----><div ng-if="!$ctrl.excerpt_with_markup">
+      <!----><div ng-if="$ctrl.song.lyrics_state === 'complete'" class="mini_card-metadata">
+        <!---->
+        <!---->
+        <!----><span ng-if=":: $ctrl.song.stats.pageviews">
+          <svg src="eye.svg" class="inline_icon inline_icon--up_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 15.45"><path d="M11 2c4 0 7.26 3.85 8.6 5.72-1.34 1.87-4.6 5.73-8.6 5.73S3.74 9.61 2.4 7.73C3.74 5.86 7 2 11 2m0-2C4.45 0 0 7.73 0 7.73s4.45 7.73 11 7.73 11-7.73 11-7.73S17.55 0 11 0z"></path><path d="M11 5a2.73 2.73 0 1 1-2.73 2.73A2.73 2.73 0 0 1 11 5m0-2a4.73 4.73 0 1 0 4.73 4.73A4.73 4.73 0 0 0 11 3z"></path></svg>
+          9.9K
+        </span><!---->
+        <!---->
+      </div><!---->
+      <!---->
+      <!---->
+    </div><!---->
+  </div>
+</a>
+</mini-song-card>
+    </div>
+  </transclude-injecting-local-scope><!----><transclude-injecting-local-scope ng-repeat="scrollable_data_model in $scrollable_data_ctrl.models track by $id(scrollable_data_model)" copy-value-to-scope="{key: $scrollable_data_ctrl.repeat_with, value: scrollable_data_model}" class="u-display_block ">
+    <div class="profile_list_item" ng-class="{'profile_list_item--last': $last}">
+      <mini-song-card object="song" variants="{small: true, show_unreviewed_count: $ctrl.sort_method == 'unreviewed_annotations'}"><a ng-href="https://genius.com/Dpr-ian-seraph-lyrics" class="mini_card mini_card--small" ng-class="{'mini_card--small': $ctrl.variants.small}" href="https://genius.com/Dpr-ian-seraph-lyrics">
+  <div class="mini_card-thumbnail clipped_background_image--background_fill clipped_background_image" clipped-background-image=":: $ctrl.song.song_art_image_thumbnail_url" style="background-image: url(&quot;https://images.genius.com/fd47398ef1d935e4a3d23d15567c1b10.300x300x1.png&quot;);">
+    <!---->
+  </div>
+  <div class="mini_card-info">
+    <div class="mini_card-title_and_subtitle">
+      <div class="mini_card-title">Seraph</div>
+      <div class="mini_card-subtitle">
+        DPR IAN<!---->
+      </div>
+    </div>
+    <!---->
+    <!----><div ng-if="!$ctrl.excerpt_with_markup">
+      <!----><div ng-if="$ctrl.song.lyrics_state === 'complete'" class="mini_card-metadata">
+        <!---->
+        <!---->
+        <!----><span ng-if=":: $ctrl.song.stats.pageviews">
+          <svg src="eye.svg" class="inline_icon inline_icon--up_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 15.45"><path d="M11 2c4 0 7.26 3.85 8.6 5.72-1.34 1.87-4.6 5.73-8.6 5.73S3.74 9.61 2.4 7.73C3.74 5.86 7 2 11 2m0-2C4.45 0 0 7.73 0 7.73s4.45 7.73 11 7.73 11-7.73 11-7.73S17.55 0 11 0z"></path><path d="M11 5a2.73 2.73 0 1 1-2.73 2.73A2.73 2.73 0 0 1 11 5m0-2a4.73 4.73 0 1 0 4.73 4.73A4.73 4.73 0 0 0 11 3z"></path></svg>
+          9.9K
+        </span><!---->
+        <!---->
+      </div><!---->
+      <!---->
+      <!---->
+    </div><!---->
+  </div>
+</a>
+</mini-song-card>
+    </div>
+  </transclude-injecting-local-scope><!----><transclude-injecting-local-scope ng-repeat="scrollable_data_model in $scrollable_data_ctrl.models track by $id(scrollable_data_model)" copy-value-to-scope="{key: $scrollable_data_ctrl.repeat_with, value: scrollable_data_model}" class="u-display_block ">
+    <div class="profile_list_item" ng-class="{'profile_list_item--last': $last}">
+      <mini-song-card object="song" variants="{small: true, show_unreviewed_count: $ctrl.sort_method == 'unreviewed_annotations'}"><a ng-href="https://genius.com/Dpr-ian-sometimes-im-lyrics" class="mini_card mini_card--small" ng-class="{'mini_card--small': $ctrl.variants.small}" href="https://genius.com/Dpr-ian-sometimes-im-lyrics">
+  <div class="mini_card-thumbnail clipped_background_image--background_fill clipped_background_image" clipped-background-image=":: $ctrl.song.song_art_image_thumbnail_url" style="background-image: url(&quot;https://images.genius.com/fd47398ef1d935e4a3d23d15567c1b10.300x300x1.png&quot;);">
+    <!---->
+  </div>
+  <div class="mini_card-info">
+    <div class="mini_card-title_and_subtitle">
+      <div class="mini_card-title">Sometimes I’m</div>
+      <div class="mini_card-subtitle">
+        DPR IAN<!---->
+      </div>
+    </div>
+    <!---->
+    <!----><div ng-if="!$ctrl.excerpt_with_markup">
+      <!----><div ng-if="$ctrl.song.lyrics_state === 'complete'" class="mini_card-metadata">
+        <!---->
+        <!---->
+        <!----><span ng-if=":: $ctrl.song.stats.pageviews">
+          <svg src="eye.svg" class="inline_icon inline_icon--up_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 15.45"><path d="M11 2c4 0 7.26 3.85 8.6 5.72-1.34 1.87-4.6 5.73-8.6 5.73S3.74 9.61 2.4 7.73C3.74 5.86 7 2 11 2m0-2C4.45 0 0 7.73 0 7.73s4.45 7.73 11 7.73 11-7.73 11-7.73S17.55 0 11 0z"></path><path d="M11 5a2.73 2.73 0 1 1-2.73 2.73A2.73 2.73 0 0 1 11 5m0-2a4.73 4.73 0 1 0 4.73 4.73A4.73 4.73 0 0 0 11 3z"></path></svg>
+          9.8K
+        </span><!---->
+        <!---->
+      </div><!---->
+      <!---->
+      <!---->
+    </div><!---->
+  </div>
+</a>
+</mini-song-card>
+    </div>
+  </transclude-injecting-local-scope><!----><transclude-injecting-local-scope ng-repeat="scrollable_data_model in $scrollable_data_ctrl.models track by $id(scrollable_data_model)" copy-value-to-scope="{key: $scrollable_data_ctrl.repeat_with, value: scrollable_data_model}" class="u-display_block ">
+    <div class="profile_list_item" ng-class="{'profile_list_item--last': $last}">
+      <mini-song-card object="song" variants="{small: true, show_unreviewed_count: $ctrl.sort_method == 'unreviewed_annotations'}"><a ng-href="https://genius.com/Dpr-live-oh-girl-lyrics" class="mini_card mini_card--small" ng-class="{'mini_card--small': $ctrl.variants.small}" href="https://genius.com/Dpr-live-oh-girl-lyrics">
+  <div class="mini_card-thumbnail clipped_background_image--background_fill clipped_background_image" clipped-background-image=":: $ctrl.song.song_art_image_thumbnail_url" style="background-image: url(&quot;https://t2.genius.com/unsafe/38x38/https%3A%2F%2Fimages.genius.com%2F04e3bc9c74f3e77515954153006cb801.300x300x1.jpg&quot;);">
+    <!---->
+  </div>
+  <div class="mini_card-info">
+    <div class="mini_card-title_and_subtitle">
+      <div class="mini_card-title">OH GIRL</div>
+      <div class="mini_card-subtitle">
+        DPR LIVE<!---->
+      </div>
+    </div>
+    <!---->
+    <!----><div ng-if="!$ctrl.excerpt_with_markup">
+      <!----><div ng-if="$ctrl.song.lyrics_state === 'complete'" class="mini_card-metadata">
+        <!---->
+        <!---->
+        <!----><span ng-if=":: $ctrl.song.stats.pageviews">
+          <svg src="eye.svg" class="inline_icon inline_icon--up_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 15.45"><path d="M11 2c4 0 7.26 3.85 8.6 5.72-1.34 1.87-4.6 5.73-8.6 5.73S3.74 9.61 2.4 7.73C3.74 5.86 7 2 11 2m0-2C4.45 0 0 7.73 0 7.73s4.45 7.73 11 7.73 11-7.73 11-7.73S17.55 0 11 0z"></path><path d="M11 5a2.73 2.73 0 1 1-2.73 2.73A2.73 2.73 0 0 1 11 5m0-2a4.73 4.73 0 1 0 4.73 4.73A4.73 4.73 0 0 0 11 3z"></path></svg>
+          8.7K
+        </span><!---->
+        <!---->
+      </div><!---->
+      <!---->
+      <!---->
+    </div><!---->
+  </div>
+</a>
+</mini-song-card>
+    </div>
+  </transclude-injecting-local-scope><!----><transclude-injecting-local-scope ng-repeat="scrollable_data_model in $scrollable_data_ctrl.models track by $id(scrollable_data_model)" copy-value-to-scope="{key: $scrollable_data_ctrl.repeat_with, value: scrollable_data_model}" class="u-display_block ">
+    <div class="profile_list_item" ng-class="{'profile_list_item--last': $last}">
+      <mini-song-card object="song" variants="{small: true, show_unreviewed_count: $ctrl.sort_method == 'unreviewed_annotations'}"><a ng-href="https://genius.com/Dpr-live-here-goes-nothing-lyrics" class="mini_card mini_card--small" ng-class="{'mini_card--small': $ctrl.variants.small}" href="https://genius.com/Dpr-live-here-goes-nothing-lyrics">
+  <div class="mini_card-thumbnail clipped_background_image--background_fill clipped_background_image" clipped-background-image=":: $ctrl.song.song_art_image_thumbnail_url" style="background-image: url(&quot;https://t2.genius.com/unsafe/38x38/https%3A%2F%2Fimages.genius.com%2F04e3bc9c74f3e77515954153006cb801.300x300x1.jpg&quot;);">
+    <!---->
+  </div>
+  <div class="mini_card-info">
+    <div class="mini_card-title_and_subtitle">
+      <div class="mini_card-title">HERE GOES NOTHING</div>
+      <div class="mini_card-subtitle">
+        DPR LIVE<!---->
+      </div>
+    </div>
+    <!---->
+    <!----><div ng-if="!$ctrl.excerpt_with_markup">
+      <!----><div ng-if="$ctrl.song.lyrics_state === 'complete'" class="mini_card-metadata">
+        <!---->
+        <!---->
+        <!----><span ng-if=":: $ctrl.song.stats.pageviews">
+          <svg src="eye.svg" class="inline_icon inline_icon--up_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 15.45"><path d="M11 2c4 0 7.26 3.85 8.6 5.72-1.34 1.87-4.6 5.73-8.6 5.73S3.74 9.61 2.4 7.73C3.74 5.86 7 2 11 2m0-2C4.45 0 0 7.73 0 7.73s4.45 7.73 11 7.73 11-7.73 11-7.73S17.55 0 11 0z"></path><path d="M11 5a2.73 2.73 0 1 1-2.73 2.73A2.73 2.73 0 0 1 11 5m0-2a4.73 4.73 0 1 0 4.73 4.73A4.73 4.73 0 0 0 11 3z"></path></svg>
+          6.3K
+        </span><!---->
+        <!---->
+      </div><!---->
+      <!---->
+      <!---->
+    </div><!---->
+  </div>
+</a>
+</mini-song-card>
+    </div>
+  </transclude-injecting-local-scope><!----><transclude-injecting-local-scope ng-repeat="scrollable_data_model in $scrollable_data_ctrl.models track by $id(scrollable_data_model)" copy-value-to-scope="{key: $scrollable_data_ctrl.repeat_with, value: scrollable_data_model}" class="u-display_block ">
+    <div class="profile_list_item" ng-class="{'profile_list_item--last': $last}">
+      <mini-song-card object="song" variants="{small: true, show_unreviewed_count: $ctrl.sort_method == 'unreviewed_annotations'}"><a ng-href="https://genius.com/Dpr-live-god-bless-lyrics" class="mini_card mini_card--small" ng-class="{'mini_card--small': $ctrl.variants.small}" href="https://genius.com/Dpr-live-god-bless-lyrics">
+  <div class="mini_card-thumbnail clipped_background_image--background_fill clipped_background_image" clipped-background-image=":: $ctrl.song.song_art_image_thumbnail_url" style="background-image: url(&quot;https://t2.genius.com/unsafe/38x38/https%3A%2F%2Fimages.genius.com%2F0d13a00ff3bcdb936de0961901031a33.300x300x1.jpg&quot;);">
+    <!---->
+  </div>
+  <div class="mini_card-info">
+    <div class="mini_card-title_and_subtitle">
+      <div class="mini_card-title">GOD BLESS</div>
+      <div class="mini_card-subtitle">
+        DPR LIVE<!---->
+      </div>
+    </div>
+    <!---->
+    <!----><div ng-if="!$ctrl.excerpt_with_markup">
+      <!----><div ng-if="$ctrl.song.lyrics_state === 'complete'" class="mini_card-metadata">
+        <!---->
+        <!---->
+        <!----><span ng-if=":: $ctrl.song.stats.pageviews">
+          <svg src="eye.svg" class="inline_icon inline_icon--up_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 15.45"><path d="M11 2c4 0 7.26 3.85 8.6 5.72-1.34 1.87-4.6 5.73-8.6 5.73S3.74 9.61 2.4 7.73C3.74 5.86 7 2 11 2m0-2C4.45 0 0 7.73 0 7.73s4.45 7.73 11 7.73 11-7.73 11-7.73S17.55 0 11 0z"></path><path d="M11 5a2.73 2.73 0 1 1-2.73 2.73A2.73 2.73 0 0 1 11 5m0-2a4.73 4.73 0 1 0 4.73 4.73A4.73 4.73 0 0 0 11 3z"></path></svg>
+          5.9K
+        </span><!---->
+        <!---->
+      </div><!---->
+      <!---->
+      <!---->
+    </div><!---->
+  </div>
+</a>
+</mini-song-card>
+    </div>
+  </transclude-injecting-local-scope><!----><transclude-injecting-local-scope ng-repeat="scrollable_data_model in $scrollable_data_ctrl.models track by $id(scrollable_data_model)" copy-value-to-scope="{key: $scrollable_data_ctrl.repeat_with, value: scrollable_data_model}" class="u-display_block ">
+    <div class="profile_list_item" ng-class="{'profile_list_item--last': $last}">
+      <mini-song-card object="song" variants="{small: true, show_unreviewed_count: $ctrl.sort_method == 'unreviewed_annotations'}"><a ng-href="https://genius.com/Dpr-live-sos-lyrics" class="mini_card mini_card--small" ng-class="{'mini_card--small': $ctrl.variants.small}" href="https://genius.com/Dpr-live-sos-lyrics">
+  <div class="mini_card-thumbnail clipped_background_image--background_fill clipped_background_image" clipped-background-image=":: $ctrl.song.song_art_image_thumbnail_url" style="background-image: url(&quot;https://t2.genius.com/unsafe/38x38/https%3A%2F%2Fimages.genius.com%2F04e3bc9c74f3e77515954153006cb801.300x300x1.jpg&quot;);">
+    <!---->
+  </div>
+  <div class="mini_card-info">
+    <div class="mini_card-title_and_subtitle">
+      <div class="mini_card-title">S.O.S</div>
+      <div class="mini_card-subtitle">
+        DPR LIVE<!---->
+      </div>
+    </div>
+    <!---->
+    <!----><div ng-if="!$ctrl.excerpt_with_markup">
+      <!----><div ng-if="$ctrl.song.lyrics_state === 'complete'" class="mini_card-metadata">
+        <!---->
+        <!---->
+        <!----><span ng-if=":: $ctrl.song.stats.pageviews">
+          <svg src="eye.svg" class="inline_icon inline_icon--up_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 15.45"><path d="M11 2c4 0 7.26 3.85 8.6 5.72-1.34 1.87-4.6 5.73-8.6 5.73S3.74 9.61 2.4 7.73C3.74 5.86 7 2 11 2m0-2C4.45 0 0 7.73 0 7.73s4.45 7.73 11 7.73 11-7.73 11-7.73S17.55 0 11 0z"></path><path d="M11 5a2.73 2.73 0 1 1-2.73 2.73A2.73 2.73 0 0 1 11 5m0-2a4.73 4.73 0 1 0 4.73 4.73A4.73 4.73 0 0 0 11 3z"></path></svg>
+          5.5K
+        </span><!---->
+        <!---->
+      </div><!---->
+      <!---->
+      <!---->
+    </div><!---->
+  </div>
+</a>
+</mini-song-card>
+    </div>
+  </transclude-injecting-local-scope><!----><transclude-injecting-local-scope ng-repeat="scrollable_data_model in $scrollable_data_ctrl.models track by $id(scrollable_data_model)" copy-value-to-scope="{key: $scrollable_data_ctrl.repeat_with, value: scrollable_data_model}" class="u-display_block ">
+    <div class="profile_list_item" ng-class="{'profile_list_item--last': $last}">
+      <mini-song-card object="song" variants="{small: true, show_unreviewed_count: $ctrl.sort_method == 'unreviewed_annotations'}"><a ng-href="https://genius.com/Dpr-live-no-rescue-needed-lyrics" class="mini_card mini_card--small" ng-class="{'mini_card--small': $ctrl.variants.small}" href="https://genius.com/Dpr-live-no-rescue-needed-lyrics">
+  <div class="mini_card-thumbnail clipped_background_image--background_fill clipped_background_image" clipped-background-image=":: $ctrl.song.song_art_image_thumbnail_url" style="background-image: url(&quot;https://t2.genius.com/unsafe/38x38/https%3A%2F%2Fimages.genius.com%2F04e3bc9c74f3e77515954153006cb801.300x300x1.jpg&quot;);">
+    <!---->
+  </div>
+  <div class="mini_card-info">
+    <div class="mini_card-title_and_subtitle">
+      <div class="mini_card-title">NO RESCUE NEEDED</div>
+      <div class="mini_card-subtitle">
+        DPR LIVE<!---->
+      </div>
+    </div>
+    <!---->
+    <!----><div ng-if="!$ctrl.excerpt_with_markup">
+      <!----><div ng-if="$ctrl.song.lyrics_state === 'complete'" class="mini_card-metadata">
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+      </div><!---->
+      <!---->
+      <!---->
+    </div><!---->
+  </div>
+</a>
+</mini-song-card>
+    </div>
+  </transclude-injecting-local-scope><!----><transclude-injecting-local-scope ng-repeat="scrollable_data_model in $scrollable_data_ctrl.models track by $id(scrollable_data_model)" copy-value-to-scope="{key: $scrollable_data_ctrl.repeat_with, value: scrollable_data_model}" class="u-display_block ">
+    <div class="profile_list_item" ng-class="{'profile_list_item--last': $last}">
+      <mini-song-card object="song" variants="{small: true, show_unreviewed_count: $ctrl.sort_method == 'unreviewed_annotations'}"><a ng-href="https://genius.com/Dpr-live-disconnect-lyrics" class="mini_card mini_card--small" ng-class="{'mini_card--small': $ctrl.variants.small}" href="https://genius.com/Dpr-live-disconnect-lyrics">
+  <div class="mini_card-thumbnail clipped_background_image--background_fill clipped_background_image" clipped-background-image=":: $ctrl.song.song_art_image_thumbnail_url" style="background-image: url(&quot;https://t2.genius.com/unsafe/38x38/https%3A%2F%2Fimages.genius.com%2F04e3bc9c74f3e77515954153006cb801.300x300x1.jpg&quot;);">
+    <!---->
+  </div>
+  <div class="mini_card-info">
+    <div class="mini_card-title_and_subtitle">
+      <div class="mini_card-title">DISCONNECT</div>
+      <div class="mini_card-subtitle">
+        DPR LIVE<!---->
+      </div>
+    </div>
+    <!---->
+    <!----><div ng-if="!$ctrl.excerpt_with_markup">
+      <!----><div ng-if="$ctrl.song.lyrics_state === 'complete'" class="mini_card-metadata">
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+      </div><!---->
+      <!---->
+      <!---->
+    </div><!---->
+  </div>
+</a>
+</mini-song-card>
+    </div>
+  </transclude-injecting-local-scope><!----><transclude-injecting-local-scope ng-repeat="scrollable_data_model in $scrollable_data_ctrl.models track by $id(scrollable_data_model)" copy-value-to-scope="{key: $scrollable_data_ctrl.repeat_with, value: scrollable_data_model}" class="u-display_block ">
+    <div class="profile_list_item" ng-class="{'profile_list_item--last': $last}">
+      <mini-song-card object="song" variants="{small: true, show_unreviewed_count: $ctrl.sort_method == 'unreviewed_annotations'}"><a ng-href="https://genius.com/Dpr-live-just-dream-it-lyrics" class="mini_card mini_card--small" ng-class="{'mini_card--small': $ctrl.variants.small}" href="https://genius.com/Dpr-live-just-dream-it-lyrics">
+  <div class="mini_card-thumbnail clipped_background_image--background_fill clipped_background_image" clipped-background-image=":: $ctrl.song.song_art_image_thumbnail_url" style="background-image: url(&quot;https://t2.genius.com/unsafe/38x38/https%3A%2F%2Fimages.genius.com%2F519c0d29edec6154dd013d0e17607d18.300x300x1.jpg&quot;);">
+    <!---->
+  </div>
+  <div class="mini_card-info">
+    <div class="mini_card-title_and_subtitle">
+      <div class="mini_card-title">​just dream it</div>
+      <div class="mini_card-subtitle">
+        DPR LIVE<!---->
+      </div>
+    </div>
+    <!---->
+    <!----><div ng-if="!$ctrl.excerpt_with_markup">
+      <!----><div ng-if="$ctrl.song.lyrics_state === 'complete'" class="mini_card-metadata">
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+      </div><!---->
+      <!---->
+      <!---->
+    </div><!---->
+  </div>
+</a>
+</mini-song-card>
+    </div>
+  </transclude-injecting-local-scope><!----><transclude-injecting-local-scope ng-repeat="scrollable_data_model in $scrollable_data_ctrl.models track by $id(scrollable_data_model)" copy-value-to-scope="{key: $scrollable_data_ctrl.repeat_with, value: scrollable_data_model}" class="u-display_block ">
+    <div class="profile_list_item" ng-class="{'profile_list_item--last': $last}">
+      <mini-song-card object="song" variants="{small: true, show_unreviewed_count: $ctrl.sort_method == 'unreviewed_annotations'}"><a ng-href="https://genius.com/Dpr-ian-ufo-lyrics" class="mini_card mini_card--small" ng-class="{'mini_card--small': $ctrl.variants.small}" href="https://genius.com/Dpr-ian-ufo-lyrics">
+  <div class="mini_card-thumbnail clipped_background_image--background_fill clipped_background_image" clipped-background-image=":: $ctrl.song.song_art_image_thumbnail_url" style="background-image: url(&quot;https://t2.genius.com/unsafe/38x38/https%3A%2F%2Fimages.genius.com%2F2384fc47ecbfa907a4e5057b2dfbcb60.300x300x1.jpg&quot;);">
+    <!---->
+  </div>
+  <div class="mini_card-info">
+    <div class="mini_card-title_and_subtitle">
+      <div class="mini_card-title">UFO</div>
+      <div class="mini_card-subtitle">
+        DPR IAN<!---->
+      </div>
+    </div>
+    <!---->
+    <!----><div ng-if="!$ctrl.excerpt_with_markup">
+      <!----><div ng-if="$ctrl.song.lyrics_state === 'complete'" class="mini_card-metadata">
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+      </div><!---->
+      <!---->
+      <!---->
+    </div><!---->
+  </div>
+</a>
+</mini-song-card>
+    </div>
+  </transclude-injecting-local-scope><!----><transclude-injecting-local-scope ng-repeat="scrollable_data_model in $scrollable_data_ctrl.models track by $id(scrollable_data_model)" copy-value-to-scope="{key: $scrollable_data_ctrl.repeat_with, value: scrollable_data_model}" class="u-display_block ">
+    <div class="profile_list_item" ng-class="{'profile_list_item--last': $last}">
+      <mini-song-card object="song" variants="{small: true, show_unreviewed_count: $ctrl.sort_method == 'unreviewed_annotations'}"><a ng-href="https://genius.com/Dpr-ian-mito-reborn-lyrics" class="mini_card mini_card--small" ng-class="{'mini_card--small': $ctrl.variants.small}" href="https://genius.com/Dpr-ian-mito-reborn-lyrics">
+  <div class="mini_card-thumbnail clipped_background_image--background_fill clipped_background_image" clipped-background-image=":: $ctrl.song.song_art_image_thumbnail_url" style="background-image: url(&quot;https://t2.genius.com/unsafe/38x38/https%3A%2F%2Fimages.genius.com%2F78c307ee1188e276beffc0647552e513.300x300x1.jpg&quot;);">
+    <!---->
+  </div>
+  <div class="mini_card-info">
+    <div class="mini_card-title_and_subtitle">
+      <div class="mini_card-title">MITO REBORN</div>
+      <div class="mini_card-subtitle">
+        DPR IAN<!---->
+      </div>
+    </div>
+    <!---->
+    <!----><div ng-if="!$ctrl.excerpt_with_markup">
+      <!----><div ng-if="$ctrl.song.lyrics_state === 'complete'" class="mini_card-metadata">
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+      </div><!---->
+      <!---->
+      <!---->
+    </div><!---->
+  </div>
+</a>
+</mini-song-card>
+    </div>
+  </transclude-injecting-local-scope><!----><transclude-injecting-local-scope ng-repeat="scrollable_data_model in $scrollable_data_ctrl.models track by $id(scrollable_data_model)" copy-value-to-scope="{key: $scrollable_data_ctrl.repeat_with, value: scrollable_data_model}" class="u-display_block ">
+    <div class="profile_list_item" ng-class="{'profile_list_item--last': $last}">
+      <mini-song-card object="song" variants="{small: true, show_unreviewed_count: $ctrl.sort_method == 'unreviewed_annotations'}"><a ng-href="https://genius.com/C-clown-justice-lyrics" class="mini_card mini_card--small" ng-class="{'mini_card--small': $ctrl.variants.small}" href="https://genius.com/C-clown-justice-lyrics">
+  <div class="mini_card-thumbnail clipped_background_image--background_fill clipped_background_image" clipped-background-image=":: $ctrl.song.song_art_image_thumbnail_url" style="background-image: url(&quot;https://t2.genius.com/unsafe/38x38/https%3A%2F%2Fimages.genius.com%2Fae9ef2201719399bd05a5f41f2a504e9.300x300x1.jpg&quot;);">
+    <!---->
+  </div>
+  <div class="mini_card-info">
+    <div class="mini_card-title_and_subtitle">
+      <div class="mini_card-title">암행어사 (Justice)</div>
+      <div class="mini_card-subtitle">
+        C-CLOWN<!---->
+      </div>
+    </div>
+    <!---->
+    <!----><div ng-if="!$ctrl.excerpt_with_markup">
+      <!----><div ng-if="$ctrl.song.lyrics_state === 'complete'" class="mini_card-metadata">
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+      </div><!---->
+      <!---->
+      <!---->
+    </div><!---->
+  </div>
+</a>
+</mini-song-card>
+    </div>
+  </transclude-injecting-local-scope><!----><transclude-injecting-local-scope ng-repeat="scrollable_data_model in $scrollable_data_ctrl.models track by $id(scrollable_data_model)" copy-value-to-scope="{key: $scrollable_data_ctrl.repeat_with, value: scrollable_data_model}" class="u-display_block ">
+    <div class="profile_list_item" ng-class="{'profile_list_item--last': $last}">
+      <mini-song-card object="song" variants="{small: true, show_unreviewed_count: $ctrl.sort_method == 'unreviewed_annotations'}"><a ng-href="https://genius.com/C-clown-lets-love-lyrics" class="mini_card mini_card--small" ng-class="{'mini_card--small': $ctrl.variants.small}" href="https://genius.com/C-clown-lets-love-lyrics">
+  <div class="mini_card-thumbnail clipped_background_image--background_fill clipped_background_image" clipped-background-image=":: $ctrl.song.song_art_image_thumbnail_url" style="background-image: url(&quot;https://t2.genius.com/unsafe/38x38/https%3A%2F%2Fimages.genius.com%2F34e3a1d4d768210dee9dec73c35149fa.300x300x1.jpg&quot;);">
+    <!---->
+  </div>
+  <div class="mini_card-info">
+    <div class="mini_card-title_and_subtitle">
+      <div class="mini_card-title">나랑만나 (Let’s Love)</div>
+      <div class="mini_card-subtitle">
+        C-CLOWN<!---->
+      </div>
+    </div>
+    <!---->
+    <!----><div ng-if="!$ctrl.excerpt_with_markup">
+      <!----><div ng-if="$ctrl.song.lyrics_state === 'complete'" class="mini_card-metadata">
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+      </div><!---->
+      <!---->
+      <!---->
+    </div><!---->
+  </div>
+</a>
+</mini-song-card>
+    </div>
+  </transclude-injecting-local-scope><!----><transclude-injecting-local-scope ng-repeat="scrollable_data_model in $scrollable_data_ctrl.models track by $id(scrollable_data_model)" copy-value-to-scope="{key: $scrollable_data_ctrl.repeat_with, value: scrollable_data_model}" class="u-display_block ">
+    <div class="profile_list_item" ng-class="{'profile_list_item--last': $last}">
+      <mini-song-card object="song" variants="{small: true, show_unreviewed_count: $ctrl.sort_method == 'unreviewed_annotations'}"><a ng-href="https://genius.com/Dpr-ian-the-gods-can-bleed-lyrics" class="mini_card mini_card--small" ng-class="{'mini_card--small': $ctrl.variants.small}" href="https://genius.com/Dpr-ian-the-gods-can-bleed-lyrics">
+  <div class="mini_card-thumbnail clipped_background_image--background_fill clipped_background_image" clipped-background-image=":: $ctrl.song.song_art_image_thumbnail_url" style="background-image: url(&quot;https://t2.genius.com/unsafe/38x38/https%3A%2F%2Fimages.genius.com%2F78c307ee1188e276beffc0647552e513.300x300x1.jpg&quot;);">
+    <!---->
+  </div>
+  <div class="mini_card-info">
+    <div class="mini_card-title_and_subtitle">
+      <div class="mini_card-title">THE GODS CAN BLEED</div>
+      <div class="mini_card-subtitle">
+        DPR IAN<!---->
+      </div>
+    </div>
+    <!---->
+    <!----><div ng-if="!$ctrl.excerpt_with_markup">
+      <!----><div ng-if="$ctrl.song.lyrics_state === 'complete'" class="mini_card-metadata">
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+      </div><!---->
+      <!---->
+      <!---->
+    </div><!---->
+  </div>
+</a>
+</mini-song-card>
+    </div>
+  </transclude-injecting-local-scope><!----><transclude-injecting-local-scope ng-repeat="scrollable_data_model in $scrollable_data_ctrl.models track by $id(scrollable_data_model)" copy-value-to-scope="{key: $scrollable_data_ctrl.repeat_with, value: scrollable_data_model}" class="u-display_block ">
+    <div class="profile_list_item" ng-class="{'profile_list_item--last': $last}">
+      <mini-song-card object="song" variants="{small: true, show_unreviewed_count: $ctrl.sort_method == 'unreviewed_annotations'}"><a ng-href="https://genius.com/Dpr-live-rust-lyrics" class="mini_card mini_card--small" ng-class="{'mini_card--small': $ctrl.variants.small}" href="https://genius.com/Dpr-live-rust-lyrics">
+  <div class="mini_card-thumbnail clipped_background_image--background_fill clipped_background_image" clipped-background-image=":: $ctrl.song.song_art_image_thumbnail_url" style="background-image: url(&quot;https://t2.genius.com/unsafe/38x38/https%3A%2F%2Fimages.genius.com%2F78c307ee1188e276beffc0647552e513.300x300x1.jpg&quot;);">
+    <!---->
+  </div>
+  <div class="mini_card-info">
+    <div class="mini_card-title_and_subtitle">
+      <div class="mini_card-title">Rust</div>
+      <div class="mini_card-subtitle">
+        DPR LIVE<!---->
+      </div>
+    </div>
+    <!---->
+    <!----><div ng-if="!$ctrl.excerpt_with_markup">
+      <!----><div ng-if="$ctrl.song.lyrics_state === 'complete'" class="mini_card-metadata">
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+      </div><!---->
+      <!---->
+      <!---->
+    </div><!---->
+  </div>
+</a>
+</mini-song-card>
+    </div>
+  </transclude-injecting-local-scope><!----><transclude-injecting-local-scope ng-repeat="scrollable_data_model in $scrollable_data_ctrl.models track by $id(scrollable_data_model)" copy-value-to-scope="{key: $scrollable_data_ctrl.repeat_with, value: scrollable_data_model}" class="u-display_block ">
+    <div class="profile_list_item" ng-class="{'profile_list_item--last': $last}">
+      <mini-song-card object="song" variants="{small: true, show_unreviewed_count: $ctrl.sort_method == 'unreviewed_annotations'}"><a ng-href="https://genius.com/Dpr-live-deja-vu-lyrics" class="mini_card mini_card--small" ng-class="{'mini_card--small': $ctrl.variants.small}" href="https://genius.com/Dpr-live-deja-vu-lyrics">
+  <div class="mini_card-thumbnail clipped_background_image--background_fill clipped_background_image" clipped-background-image=":: $ctrl.song.song_art_image_thumbnail_url" style="background-image: url(&quot;https://t2.genius.com/unsafe/38x38/https%3A%2F%2Fimages.genius.com%2F78c307ee1188e276beffc0647552e513.300x300x1.jpg&quot;);">
+    <!---->
+  </div>
+  <div class="mini_card-info">
+    <div class="mini_card-title_and_subtitle">
+      <div class="mini_card-title">Deja Vu</div>
+      <div class="mini_card-subtitle">
+        DPR LIVE<!---->
+      </div>
+    </div>
+    <!---->
+    <!----><div ng-if="!$ctrl.excerpt_with_markup">
+      <!----><div ng-if="$ctrl.song.lyrics_state === 'complete'" class="mini_card-metadata">
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+      </div><!---->
+      <!---->
+      <!---->
+    </div><!---->
+  </div>
+</a>
+</mini-song-card>
+    </div>
+  </transclude-injecting-local-scope><!----><transclude-injecting-local-scope ng-repeat="scrollable_data_model in $scrollable_data_ctrl.models track by $id(scrollable_data_model)" copy-value-to-scope="{key: $scrollable_data_ctrl.repeat_with, value: scrollable_data_model}" class="u-display_block ">
+    <div class="profile_list_item" ng-class="{'profile_list_item--last': $last}">
+      <mini-song-card object="song" variants="{small: true, show_unreviewed_count: $ctrl.sort_method == 'unreviewed_annotations'}"><a ng-href="https://genius.com/Dpr-ian-avalon-interlude-band-version-lyrics" class="mini_card mini_card--small" ng-class="{'mini_card--small': $ctrl.variants.small}" href="https://genius.com/Dpr-ian-avalon-interlude-band-version-lyrics">
+  <div class="mini_card-thumbnail clipped_background_image--background_fill clipped_background_image" clipped-background-image=":: $ctrl.song.song_art_image_thumbnail_url" style="background-image: url(&quot;https://t2.genius.com/unsafe/38x38/https%3A%2F%2Fimages.genius.com%2F78c307ee1188e276beffc0647552e513.300x300x1.jpg&quot;);">
+    <!---->
+  </div>
+  <div class="mini_card-info">
+    <div class="mini_card-title_and_subtitle">
+      <div class="mini_card-title">Avalon Interlude (Band Version)</div>
+      <div class="mini_card-subtitle">
+        DPR IAN<!---->
+      </div>
+    </div>
+    <!---->
+    <!----><div ng-if="!$ctrl.excerpt_with_markup">
+      <!----><div ng-if="$ctrl.song.lyrics_state === 'complete'" class="mini_card-metadata">
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+      </div><!---->
+      <!---->
+      <!---->
+    </div><!---->
+  </div>
+</a>
+</mini-song-card>
+    </div>
+  </transclude-injecting-local-scope><!----><transclude-injecting-local-scope ng-repeat="scrollable_data_model in $scrollable_data_ctrl.models track by $id(scrollable_data_model)" copy-value-to-scope="{key: $scrollable_data_ctrl.repeat_with, value: scrollable_data_model}" class="u-display_block ">
+    <div class="profile_list_item" ng-class="{'profile_list_item--last': $last}">
+      <mini-song-card object="song" variants="{small: true, show_unreviewed_count: $ctrl.sort_method == 'unreviewed_annotations'}"><a ng-href="https://genius.com/C-clown-cold-lyrics" class="mini_card mini_card--small" ng-class="{'mini_card--small': $ctrl.variants.small}" href="https://genius.com/C-clown-cold-lyrics">
+  <div class="mini_card-thumbnail clipped_background_image--background_fill clipped_background_image" clipped-background-image=":: $ctrl.song.song_art_image_thumbnail_url" style="background-image: url(&quot;https://t2.genius.com/unsafe/38x38/https%3A%2F%2Fimages.genius.com%2Fe87f8b81fee43b500fb3c1938397ccbb.300x219x1.jpg&quot;);">
+    <!---->
+  </div>
+  <div class="mini_card-info">
+    <div class="mini_card-title_and_subtitle">
+      <div class="mini_card-title">Cold</div>
+      <div class="mini_card-subtitle">
+        C-CLOWN<!---->
+      </div>
+    </div>
+    <!---->
+    <!----><div ng-if="!$ctrl.excerpt_with_markup">
+      <!----><div ng-if="$ctrl.song.lyrics_state === 'complete'" class="mini_card-metadata">
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+      </div><!---->
+      <!---->
+      <!---->
+    </div><!---->
+  </div>
+</a>
+</mini-song-card>
+    </div>
+  </transclude-injecting-local-scope><!----><transclude-injecting-local-scope ng-repeat="scrollable_data_model in $scrollable_data_ctrl.models track by $id(scrollable_data_model)" copy-value-to-scope="{key: $scrollable_data_ctrl.repeat_with, value: scrollable_data_model}" class="u-display_block ">
+    <div class="profile_list_item" ng-class="{'profile_list_item--last': $last}">
+      <mini-song-card object="song" variants="{small: true, show_unreviewed_count: $ctrl.sort_method == 'unreviewed_annotations'}"><a ng-href="https://genius.com/Dpr-ian-so-i-danced-lyrics" class="mini_card mini_card--small" ng-class="{'mini_card--small': $ctrl.variants.small}" href="https://genius.com/Dpr-ian-so-i-danced-lyrics">
+  <div class="mini_card-thumbnail clipped_background_image--background_fill clipped_background_image" clipped-background-image=":: $ctrl.song.song_art_image_thumbnail_url" style="background-image: url(&quot;https://t2.genius.com/unsafe/150x150/https%3A%2F%2Fimages.genius.com%2F31674afafa010f97ff4a24501c85fee2.300x300x1.jpg&quot;);">
+    <!---->
+  </div>
+  <div class="mini_card-info">
+    <div class="mini_card-title_and_subtitle">
+      <div class="mini_card-title">So I Danced</div>
+      <div class="mini_card-subtitle">
+        DPR IAN<!---->
+      </div>
+    </div>
+    <!---->
+    <!----><div ng-if="!$ctrl.excerpt_with_markup">
+      <!----><div ng-if="$ctrl.song.lyrics_state === 'complete'" class="mini_card-metadata">
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+      </div><!---->
+      <!---->
+      <!---->
+    </div><!---->
+  </div>
+</a>
+</mini-song-card>
+    </div>
+  </transclude-injecting-local-scope><!----><transclude-injecting-local-scope ng-repeat="scrollable_data_model in $scrollable_data_ctrl.models track by $id(scrollable_data_model)" copy-value-to-scope="{key: $scrollable_data_ctrl.repeat_with, value: scrollable_data_model}" class="u-display_block ">
+    <div class="profile_list_item" ng-class="{'profile_list_item--last': $last}">
+      <mini-song-card object="song" variants="{small: true, show_unreviewed_count: $ctrl.sort_method == 'unreviewed_annotations'}"><a ng-href="https://genius.com/Dpr-ian-unknown-lyrics" class="mini_card mini_card--small" ng-class="{'mini_card--small': $ctrl.variants.small}" href="https://genius.com/Dpr-ian-unknown-lyrics">
+  <div class="mini_card-thumbnail clipped_background_image--background_fill clipped_background_image" clipped-background-image=":: $ctrl.song.song_art_image_thumbnail_url" style="background-image: url(&quot;https://t2.genius.com/unsafe/38x38/https%3A%2F%2Fimages.genius.com%2F2384fc47ecbfa907a4e5057b2dfbcb60.300x300x1.jpg&quot;);">
+    <!---->
+  </div>
+  <div class="mini_card-info">
+    <div class="mini_card-title_and_subtitle">
+      <div class="mini_card-title">Unknown*</div>
+      <div class="mini_card-subtitle">
+        DPR IAN<!---->
+      </div>
+    </div>
+    <!---->
+    <!----><div ng-if="!$ctrl.excerpt_with_markup">
+      <!----><div ng-if="$ctrl.song.lyrics_state === 'complete'" class="mini_card-metadata">
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+      </div><!---->
+      <!---->
+      <!---->
+    </div><!---->
+  </div>
+</a>
+</mini-song-card>
+    </div>
+  </transclude-injecting-local-scope><!----><transclude-injecting-local-scope ng-repeat="scrollable_data_model in $scrollable_data_ctrl.models track by $id(scrollable_data_model)" copy-value-to-scope="{key: $scrollable_data_ctrl.repeat_with, value: scrollable_data_model}" class="u-display_block ">
+    <div class="profile_list_item" ng-class="{'profile_list_item--last': $last}">
+      <mini-song-card object="song" variants="{small: true, show_unreviewed_count: $ctrl.sort_method == 'unreviewed_annotations'}"><a ng-href="https://genius.com/Genius-traducciones-al-espanol-dpr-ian-nerves-traduccion-al-espanol-lyrics" class="mini_card mini_card--small" ng-class="{'mini_card--small': $ctrl.variants.small}" href="https://genius.com/Genius-traducciones-al-espanol-dpr-ian-nerves-traduccion-al-espanol-lyrics">
+  <div class="mini_card-thumbnail clipped_background_image--background_fill clipped_background_image" clipped-background-image=":: $ctrl.song.song_art_image_thumbnail_url" style="background-image: url(&quot;https://t2.genius.com/unsafe/38x38/https%3A%2F%2Fimages.genius.com%2F766a687c3e07f9acd993d7f8ac3e9902.300x300x1.png&quot;);">
+    <!---->
+  </div>
+  <div class="mini_card-info">
+    <div class="mini_card-title_and_subtitle">
+      <div class="mini_card-title">DPR IAN - Nerves (Traducción al Español)</div>
+      <div class="mini_card-subtitle">
+        Genius Traducciones al Español<!---->
+      </div>
+    </div>
+    <!---->
+    <!----><div ng-if="!$ctrl.excerpt_with_markup">
+      <!----><div ng-if="$ctrl.song.lyrics_state === 'complete'" class="mini_card-metadata">
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+      </div><!---->
+      <!---->
+      <!---->
+    </div><!---->
+  </div>
+</a>
+</mini-song-card>
+    </div>
+  </transclude-injecting-local-scope><!----><transclude-injecting-local-scope ng-repeat="scrollable_data_model in $scrollable_data_ctrl.models track by $id(scrollable_data_model)" copy-value-to-scope="{key: $scrollable_data_ctrl.repeat_with, value: scrollable_data_model}" class="u-display_block ">
+    <div class="profile_list_item" ng-class="{'profile_list_item--last': $last}">
+      <mini-song-card object="song" variants="{small: true, show_unreviewed_count: $ctrl.sort_method == 'unreviewed_annotations'}"><a ng-href="https://genius.com/Dpr-ian-tyyrg-lyrics" class="mini_card mini_card--small" ng-class="{'mini_card--small': $ctrl.variants.small}" href="https://genius.com/Dpr-ian-tyyrg-lyrics">
+  <div class="mini_card-thumbnail clipped_background_image--background_fill clipped_background_image" clipped-background-image=":: $ctrl.song.song_art_image_thumbnail_url" style="background-image: url(&quot;https://t2.genius.com/unsafe/38x38/https%3A%2F%2Fimages.genius.com%2F2384fc47ecbfa907a4e5057b2dfbcb60.300x300x1.jpg&quot;);">
+    <!---->
+  </div>
+  <div class="mini_card-info">
+    <div class="mini_card-title_and_subtitle">
+      <div class="mini_card-title">Tyyrg</div>
+      <div class="mini_card-subtitle">
+        DPR IAN<!---->
+      </div>
+    </div>
+    <!---->
+    <!----><div ng-if="!$ctrl.excerpt_with_markup">
+      <!----><div ng-if="$ctrl.song.lyrics_state === 'complete'" class="mini_card-metadata">
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+      </div><!---->
+      <!---->
+      <!---->
+    </div><!---->
+  </div>
+</a>
+</mini-song-card>
+    </div>
+  </transclude-injecting-local-scope><!----><transclude-injecting-local-scope ng-repeat="scrollable_data_model in $scrollable_data_ctrl.models track by $id(scrollable_data_model)" copy-value-to-scope="{key: $scrollable_data_ctrl.repeat_with, value: scrollable_data_model}" class="u-display_block ">
+    <div class="profile_list_item profile_list_item--last" ng-class="{'profile_list_item--last': $last}">
+      <mini-song-card object="song" variants="{small: true, show_unreviewed_count: $ctrl.sort_method == 'unreviewed_annotations'}"><a ng-href="https://genius.com/Genius-traducciones-al-espanol-dpr-ian-mito-traduccion-al-espanol-lyrics" class="mini_card mini_card--small" ng-class="{'mini_card--small': $ctrl.variants.small}" href="https://genius.com/Genius-traducciones-al-espanol-dpr-ian-mito-traduccion-al-espanol-lyrics">
+  <div class="mini_card-thumbnail clipped_background_image--background_fill clipped_background_image" clipped-background-image=":: $ctrl.song.song_art_image_thumbnail_url" style="background-image: url(&quot;https://t2.genius.com/unsafe/38x38/https%3A%2F%2Fimages.genius.com%2F766a687c3e07f9acd993d7f8ac3e9902.300x300x1.png&quot;);">
+    <!---->
+  </div>
+  <div class="mini_card-info">
+    <div class="mini_card-title_and_subtitle">
+      <div class="mini_card-title">DPR IAN - MITO (Traducción al Español)</div>
+      <div class="mini_card-subtitle">
+        Genius Traducciones al Español<!---->
+      </div>
+    </div>
+    <!---->
+    <!----><div ng-if="!$ctrl.excerpt_with_markup">
+      <!----><div ng-if="$ctrl.song.lyrics_state === 'complete'" class="mini_card-metadata">
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+      </div><!---->
+      <!---->
+      <!---->
+    </div><!---->
+  </div>
+</a>
+</mini-song-card>
+    </div>
+  </transclude-injecting-local-scope><!---->
+</div><!---->
+
+<!---->
+
+<!---->
+</scrollable-data>
